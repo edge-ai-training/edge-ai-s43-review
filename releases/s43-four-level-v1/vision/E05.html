@@ -1,0 +1,3275 @@
+<!doctype html><html lang="en" data-template="s43-case-review-four-level-frozen-v1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S43 Case Review · E05</title><link rel="stylesheet" href="styles.css"></head><body><header class="topbar"><strong>Case Review</strong><span>vision · frozen four-level review</span></header><div class="layout" id="case-review-app"><aside class="scenario-selector" id="episode-select"><h2>Scenarios</h2><a href="E01.html">E01</a><a href="E02.html">E02</a><a href="E03.html">E03</a><a href="E04.html">E04</a><a href="E05.html" aria-current="page">E05</a><a href="E06.html">E06</a></aside><main class="content"><p id="notice">All qualified FR records were re-reviewed. Model outputs and source scenarios are unchanged.</p><p id="run-identity">qualified Vision v6</p><h1>E05 — Travel from the living room toward the bedroom.</h1><h2>Four-level FR summary</h2><div class="verdict-strip"><div class="verdict dark_green"><strong>DARK GREEN</strong><br>9<br><small>preferred</small></div><div class="verdict light_green"><strong>LIGHT GREEN</strong><br>2<br><small>acceptable alternative</small></div><div class="verdict yellow"><strong>YELLOW</strong><br>19<br><small>genuinely indeterminate from available evidence</small></div><div class="verdict red"><strong>RED</strong><br>0<br><small>unreasonable with sufficient evidence</small></div></div><h2>Chronological colored A / V / FR event rail</h2><nav class="event-rail" id="event-rail" aria-label="Chronological colored A / V / FR event rail"><span id="event-index" class="muted">Model-result event index</span><a class="event-chip dark_green" data-component="FR" data-second="00" href="#second-00">00s FR</a><a class="event-chip dark_green" data-component="A" data-second="01" href="#second-01">01s A</a><a class="event-chip light_green" data-component="FR" data-second="01" href="#second-01">01s FR</a><a class="event-chip dark_green" data-component="V" data-second="01" href="#second-01">01s V</a><a class="event-chip light_green" data-component="FR" data-second="02" href="#second-02">02s FR</a><a class="event-chip dark_green" data-component="FR" data-second="03" href="#second-03">03s FR</a><a class="event-chip dark_green" data-component="V" data-second="03" href="#second-03">03s V</a><a class="event-chip yellow" data-component="FR" data-second="04" href="#second-04">04s FR</a><a class="event-chip yellow" data-component="FR" data-second="05" href="#second-05">05s FR</a><a class="event-chip dark_green" data-component="FR" data-second="06" href="#second-06">06s FR</a><a class="event-chip yellow" data-component="FR" data-second="07" href="#second-07">07s FR</a><a class="event-chip yellow" data-component="FR" data-second="08" href="#second-08">08s FR</a><a class="event-chip dark_green" data-component="A" data-second="09" href="#second-09">09s A</a><a class="event-chip yellow" data-component="FR" data-second="09" href="#second-09">09s FR</a><a class="event-chip yellow" data-component="FR" data-second="10" href="#second-10">10s FR</a><a class="event-chip yellow" data-component="FR" data-second="11" href="#second-11">11s FR</a><a class="event-chip yellow" data-component="FR" data-second="12" href="#second-12">12s FR</a><a class="event-chip dark_green" data-component="FR" data-second="13" href="#second-13">13s FR</a><a class="event-chip dark_green" data-component="FR" data-second="14" href="#second-14">14s FR</a><a class="event-chip dark_green" data-component="FR" data-second="15" href="#second-15">15s FR</a><a class="event-chip dark_green" data-component="FR" data-second="16" href="#second-16">16s FR</a><a class="event-chip yellow" data-component="FR" data-second="17" href="#second-17">17s FR</a><a class="event-chip yellow" data-component="FR" data-second="18" href="#second-18">18s FR</a><a class="event-chip yellow" data-component="FR" data-second="19" href="#second-19">19s FR</a><a class="event-chip yellow" data-component="FR" data-second="20" href="#second-20">20s FR</a><a class="event-chip dark_green" data-component="V" data-second="20" href="#second-20">20s V</a><a class="event-chip dark_green" data-component="A" data-second="21" href="#second-21">21s A</a><a class="event-chip yellow" data-component="FR" data-second="21" href="#second-21">21s FR</a><a class="event-chip dark_green" data-component="V" data-second="21" href="#second-21">21s V</a><a class="event-chip yellow" data-component="FR" data-second="22" href="#second-22">22s FR</a><a class="event-chip yellow" data-component="FR" data-second="23" href="#second-23">23s FR</a><a class="event-chip dark_green" data-component="V" data-second="23" href="#second-23">23s V</a><a class="event-chip yellow" data-component="FR" data-second="24" href="#second-24">24s FR</a><a class="event-chip dark_green" data-component="V" data-second="24" href="#second-24">24s V</a><a class="event-chip yellow" data-component="FR" data-second="25" href="#second-25">25s FR</a><a class="event-chip dark_green" data-component="V" data-second="25" href="#second-25">25s V</a><a class="event-chip yellow" data-component="FR" data-second="26" href="#second-26">26s FR</a><a class="event-chip dark_green" data-component="A" data-second="27" href="#second-27">27s A</a><a class="event-chip dark_green" data-component="FR" data-second="27" href="#second-27">27s FR</a><a class="event-chip dark_green" data-component="V" data-second="27" href="#second-27">27s V</a><a class="event-chip dark_green" data-component="FR" data-second="28" href="#second-28">28s FR</a><a class="event-chip dark_green" data-component="V" data-second="28" href="#second-28">28s V</a><a class="event-chip yellow" data-component="FR" data-second="29" href="#second-29">29s FR</a><a class="event-chip dark_green" data-component="V" data-second="29" href="#second-29">29s V</a></nav><div id="frame-track" class="muted">Full 30-second timeline</div><div id="current-frame"></div><div id="sensor-narrative"></div><div id="controller-state"></div><div id="live-results"></div><div id="history-summary"></div><div id="history-latest-10"></div><div id="identity-inspector"><strong>Prompt and model identity</strong><br>Model provenance is preserved in downloadable evidence.</div><div id="exact-inspector"><strong>Exact request / response</strong><br>Exact preserved evidence remains available outside the review display.</div><section class="second" id="second-00"><h3>Second 00</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/000.jpg" alt="Current prerecorded frame at second 00"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.80 m at -60°, forward 1.50 m at 0°, right 0.70 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is unavailable_first_sample. Scenario speed is 0.09 m/s. Signed yaw is unavailable; only magnitude 8.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 0,
+    &quot;current_speed_mps&quot;: 0.09,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history</p><p><strong>OUT</strong><br>ahead · none — Scenario speed is 0.09 m/s, and forward occupancy is clear, indicating movement in a corridor with sufficient clearance for forward movement.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Ahead is preferred because the available geometry establishes a forward free-space arc.</p><p class="muted"><strong>Timing / age:</strong> source second 00; latency 3864 ms.</p></article></section></section><section class="second" id="second-01"><h3>Second 01</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/001.jpg" alt="Current prerecorded frame at second 01"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.75 m at -60°, forward 1.38 m at 0°, right 0.68 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is closing (-0.12 m/s over the last source second). Scenario speed is 0.08 m/s. Signed yaw is unavailable; only magnitude 8.4 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 1,
+    &quot;current_speed_mps&quot;: 0.084,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="A"><h4>A result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Audio</p><p><strong>OUT</strong><br>avanza</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The resident recognizer result matches the frozen inserted command evidence.</p><p class="muted"><strong>Timing / age:</strong> source second 01; latency 202 ms.</p></article><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history</p><p><strong>OUT</strong><br>unknown · none — Insufficient visual information is available to determine a clear navigation direction, but a question is pending to improve navigation.</p></div><p class="verdict-line light_green"><strong>LIGHT GREEN</strong> — Unknown is a cautious acceptable alternative, though the forward arc makes ahead preferable.</p><p class="muted"><strong>Timing / age:</strong> source second 01; latency 4184 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>The image shows a living room with two sofas facing each other. A large screen is mounted on the wall between them, displaying animated characters. The floor is light-colored wood or laminate. There is no doorway or room cue visible in this frame; only furniture and the screen are present.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 01; latency 5059 ms.</p></article></section></section><section class="second" id="second-02"><h3>Second 02</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/002.jpg" alt="Current prerecorded frame at second 02"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.70 m at -60°, forward 1.26 m at 0°, right 0.66 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is closing (-0.12 m/s over the last source second). Scenario speed is 0.08 m/s. Signed yaw is unavailable; only magnitude 8.8 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 2,
+    &quot;current_speed_mps&quot;: 0.078,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history</p><p><strong>OUT</strong><br>unknown · none — Insufficient visual information is available to determine a clear direction, but a question is pending to improve navigation.</p></div><p class="verdict-line light_green"><strong>LIGHT GREEN</strong> — Unknown is a cautious acceptable alternative, though the forward arc makes ahead preferable.</p><p class="muted"><strong>Timing / age:</strong> source second 02; latency 4352 ms.</p></article></section></section><section class="second" id="second-03"><h3>Second 03</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/003.jpg" alt="Current prerecorded frame at second 03"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.65 m at -60°, forward 1.14 m at 0°, right 0.64 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is closing (-0.12 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 9.2 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 3,
+    &quot;current_speed_mps&quot;: 0.072,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history</p><p><strong>OUT</strong><br>unknown · none — Insufficient visual information is available to determine a clear direction, but a gentle turn is possible based on the synthetic scenario geometry.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Unknown is preferred because available evidence does not establish a current route.</p><p class="muted"><strong>Timing / age:</strong> source second 03; latency 4717 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>A doorway is visible on the left side of the image. The floor appears to be made of wood planks. A dark blue object lies on the floor in front of a light-colored sofa. In the background, there is a wall with a picture or artwork featuring three circular emblems. There is also a small structure that resembles a playpen or a tent-like enclosure near the doorway.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 03; latency 5795 ms.</p></article></section></section><section class="second" id="second-04"><h3>Second 04</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/004.jpg" alt="Current prerecorded frame at second 04"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.02 m at 0°, right 0.62 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is closing (-0.12 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 9.6 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 4,
+    &quot;current_speed_mps&quot;: 0.066,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — The vision answer indicates the rover is in a living room with furniture and a screen, but no doorway or room cues are visible. The forward direction is inferred based on the synthetic scenario geometry, and a gentle turn is required to proceed toward the bedroom.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 04; latency 5881 ms.</p></article></section></section><section class="second" id="second-05"><h3>Second 05</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/005.jpg" alt="Current prerecorded frame at second 05"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.55 m at -60°, forward 0.90 m at 0°, right 0.60 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is closing (-0.12 m/s over the last source second). Scenario speed is 0.06 m/s. Signed yaw is unavailable; only magnitude 10.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 5,
+    &quot;current_speed_mps&quot;: 0.06,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — The Vision answer confirms a doorway is visible on the left, and the floor has wood planks with obstacles near the doorway. The scene suggests movement toward the bedroom, so a gentle turn is appropriate.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 05; latency 5744 ms.</p></article></section></section><section class="second" id="second-06"><h3>Second 06</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/006.jpg" alt="Current prerecorded frame at second 06"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.56 m at -60°, forward 1.00 m at 0°, right 0.59 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is opening (+0.10 m/s over the last source second). Scenario speed is 0.06 m/s. Signed yaw is unavailable; only magnitude 10.8 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;HOLD_EXPLICIT_STOP&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 6,
+    &quot;current_speed_mps&quot;: 0.062,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [
+      &quot;STOP&quot;
+    ],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>unknown · none — Vision answer is available and provides details about the doorway, floor obstacles, and room cues, but no explicit direction is determined yet.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Unknown is preferred while completed STOP/WAIT evidence is active.</p><p class="muted"><strong>Timing / age:</strong> source second 06; latency 6599 ms.</p></article></section></section><section class="second" id="second-07"><h3>Second 07</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/007.jpg" alt="Current prerecorded frame at second 07"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.57 m at -60°, forward 1.10 m at 0°, right 0.58 m at +60°. Forward occupancy is occupied and corridor observation is unavailable. Front range trend is opening (+0.10 m/s over the last source second). Scenario speed is 0.06 m/s. Signed yaw is unavailable; only magnitude 11.7 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 7,
+    &quot;current_speed_mps&quot;: 0.063,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — A doorway is visible on the left side of the image, and the forward range trend is opening, suggesting movement toward the doorway is feasible.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 07; latency 5710 ms.</p></article></section></section><section class="second" id="second-08"><h3>Second 08</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/008.jpg" alt="Current prerecorded frame at second 08"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.57 m at -60°, forward 1.20 m at 0°, right 0.57 m at +60°. Forward occupancy is occupied and corridor observation is unavailable. Front range trend is opening (+0.10 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 12.5 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 8,
+    &quot;current_speed_mps&quot;: 0.065,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead based on synthetic scenario geometry, and visual information confirms a doorway is visible on the left side, supporting gentle turning.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 08; latency 5590 ms.</p></article></section></section><section class="second" id="second-09"><h3>Second 09</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/009.jpg" alt="Current prerecorded frame at second 09"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.58 m at -60°, forward 1.30 m at 0°, right 0.57 m at +60°. Forward occupancy is occupied and corridor observation is unavailable. Front range trend is opening (+0.10 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 13.3 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 9,
+    &quot;current_speed_mps&quot;: 0.067,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="A"><h4>A result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Audio</p><p><strong>OUT</strong><br>ve a la habitación</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The resident recognizer result matches the frozen inserted command evidence.</p><p class="muted"><strong>Timing / age:</strong> source second 09; latency 267 ms.</p></article><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead based on synthetic scenario geometry, and visual information suggests forward movement is feasible with gentle turning.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 09; latency 5728 ms.</p></article></section></section><section class="second" id="second-10"><h3>Second 10</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/010.jpg" alt="Current prerecorded frame at second 10"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.59 m at -60°, forward 1.40 m at 0°, right 0.56 m at +60°. Forward occupancy is occupied and corridor observation is unavailable. Front range trend is opening (+0.10 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 14.2 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 10,
+    &quot;current_speed_mps&quot;: 0.068,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 0
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 0,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — The Vision answer confirms a doorway is visible on the left side, and the floor has wood planks with an obstacle in front of a sofa. The scenario speed is 0.07 m/s, and the forward range trend is opening. The direction is ahead, and the turn strength is gentle.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 10; latency 7307 ms.</p></article></section></section><section class="second" id="second-11"><h3>Second 11</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/011.jpg" alt="Current prerecorded frame at second 11"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.50 m at 0°, right 0.55 m at +60°. Forward occupancy is occupied and corridor observation is unavailable. Front range trend is opening (+0.10 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 15.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 11,
+    &quot;current_speed_mps&quot;: 0.07,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 1,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 1
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 1,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead based on the latest vision answer, and turn strength is gentle as the front range trend is opening.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 11; latency 6017 ms.</p></article></section></section><section class="second" id="second-12"><h3>Second 12</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/012.jpg" alt="Current prerecorded frame at second 12"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.43 m at 0°, right 0.56 m at +60°. Forward occupancy is occupied and corridor observation is unavailable. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.07 m/s. Signed yaw is unavailable; only magnitude 14.6 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 12,
+    &quot;current_speed_mps&quot;: 0.065,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 2,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 2
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 2,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead based on the synthetic scenario geometry and the latest vision answer indicating a doorway is visible on the left side of the image.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 12; latency 6229 ms.</p></article></section></section><section class="second" id="second-13"><h3>Second 13</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/013.jpg" alt="Current prerecorded frame at second 13"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.35 m at 0°, right 0.56 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.06 m/s. Signed yaw is unavailable; only magnitude 14.2 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 13,
+    &quot;current_speed_mps&quot;: 0.06,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 3,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 3,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — The rover is moving forward, and the vision answer confirms a doorway is visible on the left side, indicating a forward direction with a gentle turn.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Ahead is preferred because the available geometry establishes a forward free-space arc.</p><p class="muted"><strong>Timing / age:</strong> source second 13; latency 6347 ms.</p></article></section></section><section class="second" id="second-14"><h3>Second 14</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/014.jpg" alt="Current prerecorded frame at second 14"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.27 m at 0°, right 0.57 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.06 m/s. Signed yaw is unavailable; only magnitude 13.9 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 14,
+    &quot;current_speed_mps&quot;: 0.055,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 4,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 1
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 4,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is &#x27;ahead&#x27; based on forward occupancy and corridor observation. Turn strength is &#x27;gentle&#x27; due to the closing front range trend and low speed.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Ahead is preferred because the available geometry establishes a forward free-space arc.</p><p class="muted"><strong>Timing / age:</strong> source second 14; latency 6556 ms.</p></article></section></section><section class="second" id="second-15"><h3>Second 15</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/015.jpg" alt="Current prerecorded frame at second 15"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.20 m at 0°, right 0.57 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.05 m/s. Signed yaw is unavailable; only magnitude 13.5 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 15,
+    &quot;current_speed_mps&quot;: 0.05,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 5,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 2
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 5,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead, and there is sufficient visual information to determine the path, but no question is pending.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Ahead is preferred because the available geometry establishes a forward free-space arc.</p><p class="muted"><strong>Timing / age:</strong> source second 15; latency 6196 ms.</p></article></section></section><section class="second" id="second-16"><h3>Second 16</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/016.jpg" alt="Current prerecorded frame at second 16"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.12 m at 0°, right 0.58 m at +60°. Forward occupancy is clear and corridor observation is available. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.04 m/s. Signed yaw is unavailable; only magnitude 13.1 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 16,
+    &quot;current_speed_mps&quot;: 0.045,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 6,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 3
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 6,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead, and the vision answer confirms the presence of a doorway on the left side, which supports forward movement with gentle turning.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Ahead is preferred because the available geometry establishes a forward free-space arc.</p><p class="muted"><strong>Timing / age:</strong> source second 16; latency 6710 ms.</p></article></section></section><section class="second" id="second-17"><h3>Second 17</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/017.jpg" alt="Current prerecorded frame at second 17"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 1.05 m at 0°, right 0.59 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.04 m/s. Signed yaw is unavailable; only magnitude 12.8 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 17,
+    &quot;current_speed_mps&quot;: 0.04,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 7,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 4
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 7,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>left · gentle — A doorway is visible on the left side of the image, indicating the rover should turn left to proceed toward the bedroom.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 17; latency 6503 ms.</p></article></section></section><section class="second" id="second-18"><h3>Second 18</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/018.jpg" alt="Current prerecorded frame at second 18"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 0.97 m at 0°, right 0.59 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.04 m/s. Signed yaw is unavailable; only magnitude 12.4 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 18,
+    &quot;current_speed_mps&quot;: 0.035,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 8,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 5
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 8,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is &#x27;ahead&#x27; based on the forward occupancy and corridor observation, and there is no visual question pending.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 18; latency 6242 ms.</p></article></section></section><section class="second" id="second-19"><h3>Second 19</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/019.jpg" alt="Current prerecorded frame at second 19"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.60 m at -60°, forward 0.90 m at 0°, right 0.60 m at +60°. Forward occupancy is partially_occupied and corridor observation is unknown. Front range trend is closing (-0.07 m/s over the last source second). Scenario speed is 0.03 m/s. Signed yaw is unavailable; only magnitude 12.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 19,
+    &quot;current_speed_mps&quot;: 0.03,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 9,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 6
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 9,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;ahead&quot;,
+      &quot;intensity&quot;: &quot;slow&quot;,
+      &quot;visual_question&quot;: null
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>ahead · none — Direction is ahead, and there is sufficient visual information to determine the general path direction and partial occupancy of the forward corridor.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Without a forward free-space arc, available evidence is insufficient to judge ahead reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 19; latency 6326 ms.</p></article></section></section><section class="second" id="second-20"><h3>Second 20</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/020.jpg" alt="Current prerecorded frame at second 20"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.59 m at -60°, forward 0.86 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is closing (-0.04 m/s over the last source second). Scenario speed is 0.03 m/s. Signed yaw is unavailable; only magnitude 10.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 20,
+    &quot;current_speed_mps&quot;: 0.025,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 10,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 3,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 10,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>left · gentle — The Vision answer indicates a doorway is visible on the left side, providing directional information that supports a left turn.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 20; latency 7160 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>A doorway is visible on the right side of the frame. The floor appears to be a light-colored surface with some shadows cast across it.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 20; latency 3925 ms.</p></article></section></section><section class="second" id="second-21"><h3>Second 21</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/021.jpg" alt="Current prerecorded frame at second 21"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.58 m at -60°, forward 0.82 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is closing (-0.04 m/s over the last source second). Scenario speed is 0.02 m/s. Signed yaw is unavailable; only magnitude 8.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 21,
+    &quot;current_speed_mps&quot;: 0.02,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 11,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 4,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 11,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="A"><h4>A result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Audio</p><p><strong>OUT</strong><br>poco a poco</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The resident recognizer result matches the frozen inserted command evidence.</p><p class="muted"><strong>Timing / age:</strong> source second 21; latency 235 ms.</p></article><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>left · gentle — A doorway is visible on the left side of the image, which suggests a leftward direction. The front range trend is closing, indicating potential obstacles ahead, but the visual information is sufficient to infer a gentle turn toward the doorway.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 21; latency 7949 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>A white door frame is visible on the right side of the image. The floor appears to be a light-colored surface with some shadows cast by objects in the room.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 21; latency 4170 ms.</p></article></section></section><section class="second" id="second-22"><h3>Second 22</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/022.jpg" alt="Current prerecorded frame at second 22"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.57 m at -60°, forward 0.78 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is closing (-0.04 m/s over the last source second). Scenario speed is 0.01 m/s. Signed yaw is unavailable; only magnitude 6.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 22,
+    &quot;current_speed_mps&quot;: 0.015,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 12,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 5,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 12,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>right · moderate — A doorway is visible on the right side of the frame, indicating a potential direction to the bedroom. The visual information is sufficient to determine the direction and moderate turn strength.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 22; latency 6666 ms.</p></article></section></section><section class="second" id="second-23"><h3>Second 23</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/023.jpg" alt="Current prerecorded frame at second 23"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.57 m at -60°, forward 0.73 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is closing (-0.04 m/s over the last source second). Scenario speed is 0.01 m/s. Signed yaw is unavailable; only magnitude 4.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 23,
+    &quot;current_speed_mps&quot;: 0.01,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 13,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 6,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 13,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>right · moderate — The Vision answer indicates a white door frame is visible on the right side, suggesting a potential rightward direction. The front range trend is closing, indicating possible obstacles, and the scene speed is low, suggesting cautious movement.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 23; latency 7550 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>A white door is visible on the right side of the frame. A bed with a white sheet is partially visible on the left side. The floor appears to be light-colored and smooth. There is a small, bright reflection or light source on the floor in the center-right area.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 23; latency 4974 ms.</p></article></section></section><section class="second" id="second-24"><h3>Second 24</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/024.jpg" alt="Current prerecorded frame at second 24"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.56 m at -60°, forward 0.69 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is closing (-0.04 m/s over the last source second). Scenario speed is 0.01 m/s. Signed yaw is unavailable; only magnitude 2.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 24,
+    &quot;current_speed_mps&quot;: 0.005,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 14,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 7,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 14,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 23,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>right · moderate — The Vision answer indicates a white door frame is visible on the right side, suggesting a potential rightward direction. The front range trend is closing, indicating possible obstacles, and the scene speed is low, suggesting a need for cautious movement.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 24; latency 7671 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>A white door is visible on the left side of the frame. To the right, there is a structure with two horizontal dark stripes, possibly drawers or shelves, above an open shelf containing indistinct items. The floor appears to be wooden or carpeted in a warm tone. A small light reflection is present on the white surface near the center-left.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 24; latency 5505 ms.</p></article></section></section><section class="second" id="second-25"><h3>Second 25</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/025.jpg" alt="Current prerecorded frame at second 25"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.55 m at -60°, forward 0.65 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is closing (-0.04 m/s over the last source second). Scenario speed is 0.00 m/s. Signed yaw is unavailable; only magnitude 0.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 25,
+    &quot;current_speed_mps&quot;: 0.0,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 15,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 8,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 15,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 23,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 24,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>right · moderate — The Vision answer indicates a white door is visible on the right side, and a bed with a white sheet is partially visible on the left. These cues suggest a direction toward the bedroom, with a moderate turn required to align with the observed scene.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 25; latency 8041 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>No doorway or room cues are visible in the frame. The scene shows a plain wall on the left and a dark area with horizontal lines on the right, but no entrance or interior space is discernible.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 25; latency 4642 ms.</p></article></section></section><section class="second" id="second-26"><h3>Second 26</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/026.jpg" alt="Current prerecorded frame at second 26"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.55 m at -60°, forward 0.65 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is stable (+0.00 m/s over the last source second). Scenario speed is 0.00 m/s. Signed yaw is unavailable; only magnitude 0.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 26,
+    &quot;current_speed_mps&quot;: 0.0,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 16,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 9,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 16,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 23,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 24,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 25,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>left · gentle — Vision answer provides clear visual cues of a white door on the left and a structure to the right, indicating a potential left turn direction with gentle turn strength.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 26; latency 6950 ms.</p></article></section></section><section class="second" id="second-27"><h3>Second 27</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/027.jpg" alt="Current prerecorded frame at second 27"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.55 m at -60°, forward 0.65 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is stable (+0.00 m/s over the last source second). Scenario speed is 0.00 m/s. Signed yaw is unavailable; only magnitude 0.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 27,
+    &quot;current_speed_mps&quot;: 0.0,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 17,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 10,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 17,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 23,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 24,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 25,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 26,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="A"><h4>A result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Audio</p><p><strong>OUT</strong><br>para</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The resident recognizer result matches the frozen inserted command evidence.</p><p class="muted"><strong>Timing / age:</strong> source second 27; latency 222 ms.</p></article><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>unknown · none — The Vision answer indicates no doorway or room cues are visible, but the visual information is insufficient to determine the exact direction and strength of the navigation intent.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Unknown is preferred because available evidence does not establish a current route.</p><p class="muted"><strong>Timing / age:</strong> source second 27; latency 6756 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>A dark doorway is visible on the right side of the frame. The floor appears to be a light-colored surface with some shadows cast by nearby objects or fixtures.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 27; latency 4112 ms.</p></article></section></section><section class="second" id="second-28"><h3>Second 28</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/028.jpg" alt="Current prerecorded frame at second 28"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.55 m at -60°, forward 0.65 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is stable (+0.00 m/s over the last source second). Scenario speed is 0.00 m/s. Signed yaw is unavailable; only magnitude 0.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 28,
+    &quot;current_speed_mps&quot;: 0,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 18,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 11,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 18,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 23,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 24,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 25,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 26,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 27,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>unknown · none — The Vision answer indicates no doorway or room cues are visible, but the visual information is insufficient to determine the direction of travel.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — Unknown is preferred because available evidence does not establish a current route.</p><p class="muted"><strong>Timing / age:</strong> source second 28; latency 6604 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>No doorways, room cues, floor obstacles, or local openings are visible in the provided frame. The image is entirely black with no discernible features.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 28; latency 4210 ms.</p></article></section></section><section class="second" id="second-29"><h3>Second 29</h3><div class="scene"><figure><h4>Current image</h4><img src="frames/E05/029.jpg" alt="Current prerecorded frame at second 29"></figure><article><h4>Geometric sensor state</h4><p>Synthetic local sectors: left 0.55 m at -60°, forward 0.65 m at 0°, right 0.60 m at +60°. Forward occupancy is unknown and corridor observation is unknown. Front range trend is stable (+0.00 m/s over the last source second). Scenario speed is 0.00 m/s. Signed yaw is unavailable; only magnitude 0.0 deg/s is supported.</p></article><article class="controller-detail"><h4>Controller state — Deterministic C state</h4><p>C is shown in second detail and is not an event-rail entry or ranked AI model.</p><pre>{
+  &quot;visible&quot;: true,
+  &quot;ranked_as_ai_model&quot;: false,
+  &quot;disposition&quot;: &quot;CALIBRATION_PENDING_HOLD&quot;,
+  &quot;inputs&quot;: {
+    &quot;sensor_observed_at_s&quot;: 29,
+    &quot;current_speed_mps&quot;: 0,
+    &quot;bumper&quot;: false,
+    &quot;explicit_stop_wait&quot;: [],
+    &quot;sensor_stale&quot;: false
+  },
+  &quot;permitted_speed&quot;: &quot;zero_until_distance_thresholds_are_calibrated&quot;,
+  &quot;distance_threshold_status&quot;: &quot;calibration_pending&quot;,
+  &quot;owns&quot;: [
+    &quot;permitted_speed&quot;,
+    &quot;braking&quot;,
+    &quot;hold&quot;,
+    &quot;bumper_response&quot;,
+    &quot;stale_sensor_response&quot;,
+    &quot;motor_execution&quot;,
+    &quot;steering_execution&quot;
+  ]
+}</pre></article></div><section><h4>Fixed FR history</h4><div class="history-grid"><div><strong>Older-history summary</strong><pre>{
+  &quot;completed_decision_count&quot;: 19,
+  &quot;direction_counts&quot;: {
+    &quot;unknown&quot;: 12,
+    &quot;ahead&quot;: 7
+  }
+}</pre></div><div><strong>Latest 10 relevant fixed scenario steps</strong><pre>[
+  {
+    &quot;time_s&quot;: 19,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 20,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 21,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 22,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 23,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 24,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 25,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 26,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 27,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  },
+  {
+    &quot;time_s&quot;: 28,
+    &quot;decision&quot;: {
+      &quot;direction&quot;: &quot;unknown&quot;,
+      &quot;intensity&quot;: null,
+      &quot;visual_question&quot;: &quot;What doorway, room cues, floor obstacles, and local openings are visible?&quot;
+    },
+    &quot;execution_state&quot;: &quot;not_executed&quot;,
+    &quot;effective_action&quot;: &quot;none&quot;
+  }
+]</pre></div></div></section><section class="events"><h4>Actual A / V / FR events</h4><article class="event" data-component="FR"><h4>FR result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>Mission, completed Audio, geometry, fixed history, and available Vision</p><p><strong>OUT</strong><br>right · moderate — The Vision answer indicates a dark doorway is visible on the right side, suggesting a rightward direction. The turn strength is moderate based on the observed doorway position.</p></div><p class="verdict-line yellow"><strong>YELLOW</strong> — Available geometry does not distinguish the selected side strongly enough to judge it reasonable or unreasonable.</p><p class="muted"><strong>Timing / age:</strong> source second 29; latency 6842 ms.</p></article><article class="event" data-component="V"><h4>V result</h4><h5>IN → OUT</h5><div class="io"><p><strong>IN</strong><br>What doorway, room cues, floor obstacles, and local openings are visible?</p><p><strong>OUT</strong><br>No doorways, room cues, floor obstacles, or local openings are visible in the provided frame. The image is completely black with no discernible features.</p></div><p class="verdict-line dark_green"><strong>DARK GREEN</strong> — The answer is concise, current-frame scoped, and contains no detected contradiction or unsupported metric claim.</p><p class="muted"><strong>Timing / age:</strong> source second 29; latency 4283 ms.</p></article></section></section></main></div><script src="app.js"></script></body></html>

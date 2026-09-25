@@ -1,0 +1,2657 @@
+{
+  "count": 239,
+  "changes": [
+    {
+      "call_id": "A-qwen3-1.7b:E01-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E01-011",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E01-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E01-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E01-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E01-015",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-002",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-003",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-008",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-011",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-015",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-021",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E02-024",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-000",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-001",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-002",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-004",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-007",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-026",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E03-027",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-017",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-025",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-026",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-027",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E04-028",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-004",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3-1.7b:E05-011",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-002",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-003",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-011",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-015",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-021",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E02-024",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-004",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-007",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-020",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-021",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-022",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-023",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-024",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E03-025",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-017",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-023",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-024",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-025",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-026",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-027",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E04-028",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E05-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E05-004",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E05-005",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E05-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-qwen3.5-0.8b:E05-010",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-011",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-015",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-016",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-017",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-027",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E01-028",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-002",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-003",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-006",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-011",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-021",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E02-024",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-000",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-001",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-002",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-004",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-007",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-020",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-021",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-022",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-023",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-024",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E03-025",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-023",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-024",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-025",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-026",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-027",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E04-028",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-011",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-012",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-017",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-018",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-700m:E05-019",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-011",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-015",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-016",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-017",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-027",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E01-028",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-002",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-003",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-011",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E02-015",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-000",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-001",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-002",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-004",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-007",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-020",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-021",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-022",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-023",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-024",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E03-025",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-023",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-024",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-025",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-026",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-027",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E04-028",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-011",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-012",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-017",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-018",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "A-lfm2-1.2b:E05-019",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-015",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-016",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E01-017",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-001",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-002",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-003",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-008",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-011",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-012",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-013",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-014",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-015",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E02-024",
+      "old_local": "LIGHT_GREEN",
+      "new_local": "YELLOW_INFORMATION_GAP",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-000",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-001",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-002",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-004",
+      "old_local": "GREEN",
+      "new_local": "LIGHT_GREEN",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "PREFERRED",
+      "reason_codes": [
+        "UNCERTAIN_GEOMETRY_CONTRACT_AMBIGUITY_EXPLICITLY_FLAGGED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-007",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-021",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-022",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-023",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-024",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-025",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E03-027",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-000",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-006",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-017",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E04-022",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM",
+        "DATA_DEFECT_EXPLICITLY_FLAGGED_AND_EXCLUDED",
+        "VISION_ROUTE_CLAIM_AND_SEMANTIC_TYPE_FRESHNESS_REAUDITED"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E05-003",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "GREEN",
+      "old_global_normalized": "PREFERRED",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E05-004",
+      "old_local": "YELLOW_INFORMATION_GAP",
+      "new_local": "GREEN",
+      "old_global": "RED_GLOBAL_MISMATCH",
+      "old_global_normalized": "MISMATCH",
+      "new_global": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E05-007",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E05-008",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E05-009",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    },
+    {
+      "call_id": "B-qwen3-1.7b:E05-010",
+      "old_local": "RED_MODEL_ERROR",
+      "new_local": "RED_MODEL_ERROR",
+      "old_global": "LIGHT_GREEN",
+      "old_global_normalized": "ACCEPTABLE_SAFE_ALTERNATIVE",
+      "new_global": "MISMATCH",
+      "reason_codes": [
+        "GLOBAL_FULL_REFERENCE_SEMANTICS_REPLACED_LEGACY_BOUNDED_ENUM"
+      ]
+    }
+  ]
+}

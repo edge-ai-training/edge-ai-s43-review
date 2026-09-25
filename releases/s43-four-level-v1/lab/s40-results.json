@@ -1,0 +1,321 @@
+{
+  "schema_version": "model-lab.five-category.v2",
+  "release": {
+    "sprint": "S40",
+    "date": "2026-09-23",
+    "combined_system_result_published": false,
+    "historical_archive": "historical.html"
+  },
+  "benchmarks": {
+    "AUDIO-171-v1": {
+      "cases": 171,
+      "view": "Spanish WAV + frozen label/intent",
+      "manifest_sha256": "82881202e40aa8534fc4eef0587478d4adbeec991c7a9f8b3db6b469281c5c66"
+    },
+    "CORE-MULTIMODAL-36-v2": {
+      "cases": 36,
+      "view_rule": "The same situations feed categories 2–5; only the declared category input view changes.",
+      "case_ids": [
+        "E01-000",
+        "E01-005",
+        "E01-010",
+        "E01-015",
+        "E01-020",
+        "E01-024",
+        "E02-000",
+        "E02-005",
+        "E02-010",
+        "E02-015",
+        "E02-020",
+        "E02-024",
+        "E03-000",
+        "E03-005",
+        "E03-010",
+        "E03-015",
+        "E03-020",
+        "E03-024",
+        "E04-000",
+        "E04-005",
+        "E04-010",
+        "E04-015",
+        "E04-020",
+        "E04-024",
+        "E05-000",
+        "E05-005",
+        "E05-010",
+        "E05-015",
+        "E05-020",
+        "E05-024",
+        "E06-000",
+        "E06-005",
+        "E06-010",
+        "E06-015",
+        "E06-020",
+        "E06-024"
+      ],
+      "freeze_sha256": null,
+      "selection": "deterministic seconds 000/005/010/015/020/024 for E01-E06"
+    },
+    "HOUSE-6-v1-TEXT": {
+      "cases": 180,
+      "view": "Full six-scenario sequential text with perfect visual facts; Fast Reasoning promotion only"
+    },
+    "HOUSE-6-v1": {
+      "cases": 180,
+      "view": "Preserved multimodal source/regression set; no S40 combined-system run"
+    }
+  },
+  "categories": [
+    {
+      "id": "audio",
+      "name": "1 · Audio",
+      "benchmark": "AUDIO-171-v1",
+      "input": "Spanish audio",
+      "task": "Transcript and intent correctness",
+      "rows": [
+        {
+          "model": "Whisper Small",
+          "cases": 171,
+          "valid": 171,
+          "quality": "122 green / 171 (71.3%)",
+          "median_ms": 3316.034,
+          "p90_ms": 3365.905,
+          "footprint": "pinned ggml-small; whisper.cpp CPU; reload/request",
+          "verdict": "Highest retained quality; too slow."
+        },
+        {
+          "model": "Whisper Base",
+          "cases": 171,
+          "valid": 171,
+          "quality": "107 green / 171 (62.6%)",
+          "median_ms": 1024.79,
+          "p90_ms": 1041.121,
+          "footprint": "pinned ggml-base; whisper.cpp CPU; reload/request",
+          "verdict": "Faster, lowest retained green rate."
+        },
+        {
+          "model": "Vosk Small ES 0.42",
+          "cases": 171,
+          "valid": 171,
+          "quality": "114 green / 171 (66.7%)",
+          "median_ms": 244.057,
+          "p90_ms": 351.278,
+          "footprint": "57.5 MiB; resident Vosk/Kaldi CPU",
+          "verdict": "Retained speed/quality baseline."
+        }
+      ]
+    },
+    {
+      "id": "fast",
+      "name": "2 · Fast Reasoning",
+      "benchmark": "CORE-MULTIMODAL-36-v2 + promoted HOUSE-6-v1-TEXT",
+      "input": "Perfect visual facts + mission + perfect completed audio/intent history + enriched sensor text; no image",
+      "task": "Bounded local direction; external STOP/WAIT precedence",
+      "rows": [
+        {
+          "model": "qwen3:1.7b",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 1508.076,
+          "p90_ms": 1824.22,
+          "footprint_mib": 1296.3,
+          "quality": "15/36 acceptable · 14/29 exact",
+          "secondary": "turn side 0/3 · flips 0",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "s40-lfm2-700m:Q4_K_M",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 996.718,
+          "p90_ms": 1068.632,
+          "footprint_mib": 446.9,
+          "quality": "13/36 acceptable · 7/29 exact",
+          "secondary": "turn side 3/3 · flips 7",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "s40-lfm2-1.2b:Q4_K_M",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 1528.276,
+          "p90_ms": 1682.626,
+          "footprint_mib": 697.0,
+          "quality": "24/36 acceptable · 18/29 exact",
+          "secondary": "turn side 0/3 · flips 0",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "qwen3.5:0.8b",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 2131.029,
+          "p90_ms": 2332.922,
+          "footprint_mib": 988.1,
+          "quality": "26/36 acceptable · 21/29 exact",
+          "secondary": "turn side 3/3 · flips 0",
+          "verdict": "CORE quality lead; HOUSE validation failed promotion"
+        },
+        {
+          "model": "qwen3.5:2b-q4_K_M",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 2183.108,
+          "p90_ms": 2493.689,
+          "footprint_mib": 1855.2,
+          "quality": "24/36 acceptable · 19/29 exact",
+          "secondary": "turn side 0/3 · flips 0",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "qwen3.5:0.8b · HOUSE-6-TEXT",
+          "cases": 180,
+          "valid": 180,
+          "median_ms": 1628.774,
+          "p90_ms": 1834.21,
+          "footprint_mib": 988.1,
+          "quality": "77/180 acceptable · 52/150 exact",
+          "secondary": "turn side 15/15",
+          "verdict": "Temporal validation; not promoted"
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "name": "3 · Vision",
+      "benchmark": "CORE-MULTIMODAL-36-v2",
+      "input": "Image + mission + perfect command history + sensor text",
+      "task": "Sensor/object grounding and truthful semantic relevance; no rover motion",
+      "rows": [
+        {
+          "model": "qwen3-vl:2b-instruct",
+          "cases": 36,
+          "valid": 27,
+          "median_ms": 26108.458,
+          "p90_ms": 27024.202,
+          "footprint_mib": 1802.0,
+          "quality": "2/62 groundings · 15/36 target",
+          "secondary": "unsupported 73 · full cases 0",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "qwen3.5:2b-q4_K_M",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 9571.603,
+          "p90_ms": 10245.294,
+          "footprint_mib": 1855.2,
+          "quality": "15/62 groundings · 14/36 target",
+          "secondary": "unsupported 59 · full cases 7",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "s40-lfm2.5-vl-3b:q4_k_m",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 6961.358,
+          "p90_ms": 7590.239,
+          "footprint_mib": 2153.0,
+          "quality": "0/62 groundings · 12/36 target",
+          "secondary": "unsupported 0 · full cases 0",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "OpenGVLab/InternVL3_5-1B-HF",
+          "cases": 1,
+          "valid": 0,
+          "median_ms": 82805.48,
+          "p90_ms": 82805.48,
+          "footprint_mib": null,
+          "quality": "0/2 groundings · 0/1 target",
+          "secondary": "unsupported 0 · full cases 0",
+          "verdict": "Smoke failed; stopped"
+        },
+        {
+          "model": "Florence-2-large-ft",
+          "cases": 1,
+          "valid": 0,
+          "quality": "bounded runtime smoke failed",
+          "secondary": "native boxes planned; no benchmark claim",
+          "median_ms": null,
+          "p90_ms": null,
+          "footprint": "1,469.6 MiB weights; Transformers CPU",
+          "verdict": "Runtime failed; skipped full run"
+        },
+        {
+          "model": "Moondream 3.1",
+          "cases": 0,
+          "valid": 0,
+          "quality": "not run",
+          "secondary": "current 9B-A2B checkpoint impractical on CPU-only host",
+          "median_ms": null,
+          "p90_ms": null,
+          "footprint": "not installed",
+          "verdict": "Skipped"
+        }
+      ]
+    },
+    {
+      "id": "slow",
+      "name": "4 · Slow Multimodal Reasoning",
+      "benchmark": "CORE-MULTIMODAL-36-v2",
+      "input": "Image + mission + perfect command history + sensor text",
+      "task": "Compact non-blocking interpretation/correction; no motor command",
+      "rows": [
+        {
+          "model": "qwen3.5:2b-q4_K_M",
+          "cases": 36,
+          "valid": 34,
+          "median_ms": 5841.563,
+          "p90_ms": 9432.381,
+          "footprint_mib": 1855.2,
+          "quality": "target 14/36 · relevance 9/36",
+          "secondary": "facts 21 supported / 26 unsupported · motor 0",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "s40-lfm2.5-vl-3b:q4_k_m",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 6862.524,
+          "p90_ms": 7939.787,
+          "footprint_mib": 2153.0,
+          "quality": "target 16/36 · relevance 10/36",
+          "secondary": "facts 9 supported / 7 unsupported · motor 0",
+          "verdict": "Not promoted"
+        }
+      ]
+    },
+    {
+      "id": "direct",
+      "name": "5 · Multimodal Direct Decision",
+      "benchmark": "CORE-MULTIMODAL-36-v2",
+      "input": "Image + mission + perfect command history + sensor text",
+      "task": "Direct bounded rover decision; latency remains visible",
+      "rows": [
+        {
+          "model": "qwen3.5:2b-q4_K_M",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 6285.602,
+          "p90_ms": 7396.917,
+          "footprint_mib": 1855.2,
+          "quality": "24/36 acceptable · 19/36 exact",
+          "secondary": "turn side 2/3 · unsupported evidence 57",
+          "verdict": "Not promoted"
+        },
+        {
+          "model": "s40-lfm2.5-vl-3b:q4_k_m",
+          "cases": 36,
+          "valid": 36,
+          "median_ms": 6314.203,
+          "p90_ms": 7786.088,
+          "footprint_mib": 2153.0,
+          "quality": "15/36 acceptable · 8/36 exact",
+          "secondary": "turn side 1/3 · unsupported evidence 42",
+          "verdict": "Not promoted"
+        }
+      ]
+    }
+  ]
+}

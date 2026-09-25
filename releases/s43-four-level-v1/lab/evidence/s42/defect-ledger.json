@@ -1,0 +1,246 @@
+{
+  "cases": [
+    {
+      "case_id": "E01-011",
+      "data_defects": [],
+      "contract_ambiguities": [
+        {
+          "code": "CONTRACT_AMBIGUITY",
+          "missing_rule": "The FR prompt defines open and constrained/blocked behavior but does not say whether an uncertain forward geometry makes the reported side corridor mandatory."
+        }
+      ],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E01-016",
+      "data_defects": [],
+      "contract_ambiguities": [
+        {
+          "code": "CONTRACT_AMBIGUITY",
+          "missing_rule": "The FR prompt defines open and constrained/blocked behavior but does not say whether an uncertain forward geometry makes the reported side corridor mandatory."
+        }
+      ],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E01-017",
+      "data_defects": [],
+      "contract_ambiguities": [
+        {
+          "code": "CONTRACT_AMBIGUITY",
+          "missing_rule": "The FR prompt defines open and constrained/blocked behavior but does not say whether an uncertain forward geometry makes the reported side corridor mandatory."
+        }
+      ],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E01-021",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E01-022",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E01-023",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-003",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-004",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-005",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-011",
+      "data_defects": [
+        {
+          "code": "SENSOR_FV_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry open while the same-second FV oracle says constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-015",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-021",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry blocked and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for blocked."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E02-024",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry blocked and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for blocked."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E03-004",
+      "data_defects": [],
+      "contract_ambiguities": [
+        {
+          "code": "CONTRACT_AMBIGUITY",
+          "missing_rule": "The FR prompt defines open and constrained/blocked behavior but does not say whether an uncertain forward geometry makes the reported side corridor mandatory."
+        }
+      ],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E03-009",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E03-010",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E03-011",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E04-021",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E04-022",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E04-029",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry blocked and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for blocked."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E05-010",
+      "data_defects": [
+        {
+          "code": "SENSOR_FV_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry open while the same-second FV oracle says blocked_forward."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    },
+    {
+      "case_id": "E05-016",
+      "data_defects": [
+        {
+          "code": "INPUT_CONTRACT_CONTRADICTION",
+          "contradiction": "Sensor says forward geometry constrained and also says the best free corridor is ahead, while the FR prompt requires a usable side corridor for constrained."
+        }
+      ],
+      "contract_ambiguities": [],
+      "excluded_from_model_training_counts": true
+    }
+  ]
+}

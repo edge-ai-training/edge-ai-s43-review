@@ -1,0 +1,95 @@
+{
+  "parent": "S43.07-vision-turn-strength-v2",
+  "candidate": "S43.11-vision-audio-constrained-timing-isolated-v6",
+  "advisor_target_scope": {
+    "named_target_cases": [
+      "E05-006",
+      "E06-005",
+      "E06-006"
+    ],
+    "observed_requests_with_active_completed_stop_or_wait": [
+      "E04-001",
+      "E05-006",
+      "E06-005",
+      "E06-006"
+    ],
+    "source_discrepancy": "E04-001 also contains an active one-second WAIT_HERE and already scored dark green in S43.07; it remains unconstrained because the Advisor explicitly required changes only on the three named requests."
+  },
+  "request_parity": {
+    "pass": true,
+    "prompt_bytes_identical": 180,
+    "non_schema_request_identical": 180,
+    "full_request_identical": 177,
+    "target_schema_only_changes": [
+      {
+        "case_id": "E05-006",
+        "target": true,
+        "prompt_bytes_identical": true,
+        "non_schema_request_identical": true,
+        "full_request_identical": false
+      },
+      {
+        "case_id": "E06-005",
+        "target": true,
+        "prompt_bytes_identical": true,
+        "non_schema_request_identical": true,
+        "full_request_identical": false
+      },
+      {
+        "case_id": "E06-006",
+        "target": true,
+        "prompt_bytes_identical": true,
+        "non_schema_request_identical": true,
+        "full_request_identical": false
+      }
+    ]
+  },
+  "target_outputs": {
+    "E05-006": {
+      "direction": "unknown",
+      "turn_strength": "none",
+      "verdict": "dark_green"
+    },
+    "E06-005": {
+      "direction": "unknown",
+      "turn_strength": "none",
+      "verdict": "dark_green"
+    },
+    "E06-006": {
+      "direction": "unknown",
+      "turn_strength": "none",
+      "verdict": "dark_green"
+    }
+  },
+  "verdict_transitions": {
+    "dark_green->dark_green": 77,
+    "yellow->yellow": 99,
+    "light_green->light_green": 3,
+    "red->dark_green": 1
+  },
+  "verdict_counts": {
+    "dark_green": 78,
+    "yellow": 99,
+    "light_green": 3
+  },
+  "direction_changes": [
+    {
+      "case_id": "E05-006",
+      "from": "ahead",
+      "to": "unknown",
+      "target": true
+    }
+  ],
+  "unrelated_direction_drift": [],
+  "non_target_preferred_outcome_regressions": [],
+  "qualification": {
+    "qualified": true,
+    "criteria": {
+      "request_parity_pass": true,
+      "all_three_targets_unknown_none_dark_green": true,
+      "zero_red": true,
+      "no_non_target_dark_or_light_to_lower_verdict": true
+    },
+    "note": "Unrelated direction changes are reported as deterministic-seed/model drift even when their verdict class is unchanged."
+  }
+}

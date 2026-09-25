@@ -1,0 +1,6 @@
+{
+  "contract_generation": "S43",
+  "template_generation": "s43-case-review-four-level-frozen-v1",
+  "arm": "vision",
+  "immutable": true
+}

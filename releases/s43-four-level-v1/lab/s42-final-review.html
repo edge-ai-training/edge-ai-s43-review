@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S42 Final v15 Review</title><link rel="stylesheet" href="s42-final-review.css"></head><body>
+<header><a class="back" href="index.html">← Model Lab</a><h1>S42 · Final v15 review</h1><p>CANONICAL-HOUSE-6-v15 · Qwen3 1.7B · E01–E06 · 30 seconds each</p></header>
+<section id="summary" class="summary"></section><section class="limitations"><strong>Benchmark limitations</strong><div id="limits"></div></section>
+<nav class="mode-tabs" id="modes"></nav><section class="controls"><label>Scenario <select id="episode"></select></label><label>Second <input id="time" type="range" min="0" max="29" value="0"><span id="timeLabel">0s</span></label><button id="prev">←</button><button id="next">→</button></section>
+<section id="timeline" class="timeline"></section>
+<main><section class="visual-card"><img id="frame" alt="Current prerecorded frame"><div class="case-title"><strong id="caseId"></strong><span id="verdict"></span></div><div id="mission" class="mission"></div></section>
+<section class="decision-card"><h2>Decision</h2><div id="decision"></div><h3>Evaluation</h3><div id="evaluation"></div><h3>Production Vision evidence</h3><div id="vision"></div></section></main>
+<section class="compare"><h2>Same second across modes</h2><div id="compare"></div></section>
+<section class="grid"><details open><summary>Exact model-visible context / history</summary><pre id="context"></pre></details><details><summary>Audio / command state</summary><pre id="commands"></pre></details><details><summary>Sensor input / narrative</summary><pre id="sensors"></pre></details>
+<details><summary>Global / unresolved / data-defect audit</summary><pre id="global"></pre></details><details><summary>Raw output</summary><pre id="raw"></pre></details><details><summary>Current-frame audit reference</summary><pre id="reference"></pre></details></section>
+<footer>Prerecorded open-loop diagnostic only. Candidate actions are not executed. Superseded history remains in Model Lab.</footer><script src="s42-final-review.js"></script></body></html>
