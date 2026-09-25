@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S42 · Vision Comparison</title>
+<link rel="stylesheet" href="s42-vision-comparison.css">
+</head>
+<body>
+<header>
+  <div><a class="back" href="index.html">← Model Lab</a><h1>S42 · Qwen3 1.7B Vision Comparison</h1></div>
+  <p>CANONICAL-HOUSE-6-v15 · 6 scenarios × 30 frames · controlled diagnostic, not physical navigation evidence</p>
+</header>
+<section id="summary" class="summary"></section>
+<section class="limitations"><strong>Review limits</strong><div id="limits"></div></section>
+<nav class="mode-tabs">
+  <button data-mode="no" class="active">1 · No Vision / fixed context</button>
+  <button data-mode="vision">2 · Real Vision / fixed context</button>
+  <button data-mode="self">3 · Real Vision / self-history</button>
+</nav>
+<section class="controls">
+  <label>Scenario <select id="episode"></select></label>
+  <label>Second <input id="time" type="range" min="0" max="29" value="0"><span id="timeLabel">0</span></label>
+  <button id="prev">←</button><button id="next">→</button>
+</section>
+<section id="timeline" class="timeline"></section>
+<main>
+  <section class="visual-card">
+    <img id="frame" alt="Current benchmark frame">
+    <div class="case-title"><strong id="caseId"></strong><span id="verdict"></span></div>
+    <div id="mission" class="mission"></div>
+  </section>
+  <section class="decision-card">
+    <h2>Current mode decision</h2>
+    <div id="decision"></div>
+    <h3>Vision activity</h3><div id="vision"></div>
+    <h3>Evaluator</h3><div id="evaluation"></div>
+  </section>
+</main>
+<section class="compare"><h2>Same case across all three modes</h2><div id="compare"></div></section>
+<section class="grid">
+  <details open><summary>Model-visible input</summary><pre id="input"></pre></details>
+  <details><summary>Current geometry + commands</summary><pre id="geometry"></pre></details>
+  <details><summary>Audited current-frame reference</summary><pre id="reference"></pre></details>
+  <details><summary>Raw model output</summary><pre id="raw"></pre></details>
+</section>
+<footer>Exact request SHA-256 is shown per case; full exact request bodies are preserved in the S42.62–S42.64 artifacts.</footer>
+<script src="s42-vision-comparison.js"></script>
+</body></html>

@@ -1,0 +1,36 @@
+.isolated{padding:70px 0;border-bottom:1px solid var(--line)}
+.isolated-head{max-width:920px}
+.isolated-lede{font-size:19px;line-height:1.55;color:var(--muted);max-width:920px}
+.run-note{margin:28px 0;padding:16px 20px;border:1px solid var(--line);font:12px/1.6 ui-monospace,monospace}
+.test-nav{display:flex;gap:8px;flex-wrap:wrap;margin:28px 0 18px;position:sticky;top:8px;z-index:2}
+.test-nav a{background:var(--paper);border:1px solid var(--ink);color:var(--ink);padding:10px 14px;text-decoration:none;font:800 11px ui-monospace,monospace;text-transform:uppercase;letter-spacing:.06em}
+.test-block{padding:38px 0 54px;border-top:1px solid var(--line)}
+.test-block h3{font-size:36px;margin:0 0 8px}
+.test-desc{color:var(--muted);max-width:880px;line-height:1.55}
+.s31-model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.s31-model{border:1px solid var(--line);padding:20px;background:#fff}
+.s31-model h4{margin:4px 0 14px;font-size:17px;overflow-wrap:anywhere}
+.s31-model .grade-bar{height:12px}
+.s31-model .counts{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;margin-top:15px;font:11px ui-monospace,monospace}
+.s31-model .counts span{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:4px}
+.s31-model .latency{margin-top:14px;color:var(--muted);font:11px/1.6 ui-monospace,monospace}
+.evidence-controls{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:12px;margin:24px 0}
+.evidence-controls label{font:700 10px ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}
+.evidence-controls select{display:block;width:100%;margin-top:6px;padding:9px;border:1px solid var(--line);background:#fff}
+.evidence-count{color:var(--muted);font:12px ui-monospace,monospace;margin-bottom:12px}
+.evidence-list{display:grid;gap:12px}
+.evidence-row{border:1px solid var(--line);background:#fff}
+.evidence-row summary{display:grid;grid-template-columns:72px minmax(160px,1fr) 130px 120px;gap:12px;align-items:center;padding:14px;cursor:pointer}
+.evidence-row summary::-webkit-details-marker{display:none}
+.case-id{font:800 12px ui-monospace,monospace}
+.model-short{font:700 12px/1.35 ui-monospace,monospace;overflow-wrap:anywhere}
+.grade{display:inline-block;border-radius:999px;padding:5px 8px;font:800 10px ui-monospace,monospace;text-transform:uppercase}
+.grade.dark_green{background:#174d2b;color:#fff}.grade.light_green{background:#a9d9a8;color:#102e17}.grade.yellow{background:#f1d86c;color:#3d3200}.grade.red{background:#bb2d2d;color:#fff}
+.evidence-body{display:grid;grid-template-columns:240px 1fr;gap:20px;padding:0 14px 18px;border-top:1px solid var(--line)}
+.frame-panel{padding-top:18px}.frame-panel img{width:100%;height:auto;display:block;background:#111}.frame-hash{font:9px/1.4 ui-monospace,monospace;overflow-wrap:anywhere;color:var(--muted);margin-top:7px}
+.io-panel{min-width:0}.io-panel h5{font:800 10px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;margin:18px 0 6px}
+.io-panel pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f2ed;padding:12px;margin:0;font:10px/1.5 ui-monospace,monospace;max-height:260px;overflow:auto}
+.verdict-note{border-left:8px solid;padding:12px;margin-top:16px;line-height:1.45}.verdict-note.dark_green{border-color:#174d2b}.verdict-note.light_green{border-color:#79b879}.verdict-note.yellow{border-color:#e2bd21}.verdict-note.red{border-color:#bb2d2d}
+.interpretation{background:var(--ink);color:var(--paper);padding:28px;margin-top:20px}.interpretation li{margin-bottom:10px;line-height:1.5}.interpretation .section-label{color:var(--lime)}
+@media(max-width:900px){.s31-model-grid{grid-template-columns:1fr}.evidence-row summary{grid-template-columns:64px 1fr 110px}.evidence-row summary .latency-cell{display:none}.evidence-body{grid-template-columns:1fr}.frame-panel img{max-width:420px}.evidence-controls{grid-template-columns:1fr}}
+@media(max-width:560px){.test-block h3{font-size:29px}.evidence-row summary{grid-template-columns:1fr 100px}.case-id{grid-column:1/-1}}

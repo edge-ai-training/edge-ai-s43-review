@@ -1,0 +1,188 @@
+{
+  "schema_version": "s42.full-reference-evaluation.v3",
+  "canonical_id": "CANONICAL-HOUSE-6-v1",
+  "evaluation_only_no_candidate_rerun": true,
+  "open_loop_sequential_replay": true,
+  "open_loop_warning": "Candidate outputs never alter later prerecorded frames or sensors; later observations are not evidence of candidate-caused mission progress.",
+  "reviewer": {
+    "role": "Manager",
+    "model": "GPT-5.6 Sol",
+    "reasoning": "high",
+    "method": "full FR semantic reference plus exact local-evidence contract"
+  },
+  "source_hashes": {
+    "artifacts/sprints/S41/S41.01-canonical-scheduler-v1/cases.json": "9a8f51fe52eeb99121e0b8b6ab3e9d2b03bbcf1e7bba51e3b02071fde8d46e47",
+    "artifacts/sprints/S41/S41.04-architecture-b-v1/vision-contexts.json": "3e355cbbf34a4659f9bd8e89bd73d6a744fdabc5a1c5913220f402853145bf86",
+    "artifacts/sprints/S41/S41.02-fr-comparison-v1/qwen3_1_7b-raw.json": "fe39b43cd124f93266f9d0436b3b74b13dba57f65864c62a6b7c79f7b1d4a10f",
+    "artifacts/sprints/S41/S41.02-fr-comparison-v1/qwen3_5_0_8b-raw.json": "3abbd21689c442bc4483792a5f0a36d7e1b234a534a4627764ec2d64a5d5d56e",
+    "artifacts/sprints/S41/S41.02-fr-comparison-v1/s40-lfm2-700m_Q4_K_M-raw.json": "128543d8ce20f27e0b3443289836b28e90ee08bf98b071c2836ccaf3919aca1e",
+    "artifacts/sprints/S41/S41.02-fr-comparison-v1/s40-lfm2-1_2b_Q4_K_M-raw.json": "a8c53a8cbb9a574b653906294f083c8c8bb796cd785d6e90d2542360e26a11a7",
+    "artifacts/sprints/S41/S41.04-architecture-b-v1/qwen3_1_7b-raw.json": "014bd5324b918fb20c57941c1837f2fc7bec3950c91a2797eedb3578e7ec2a21"
+  },
+  "call_count": 900,
+  "models": [
+    {
+      "source_id": "A-qwen3-1.7b",
+      "architecture": "A",
+      "model": "Qwen3 1.7B",
+      "calls": 180,
+      "local": {
+        "GREEN": 84,
+        "LIGHT_GREEN": 15,
+        "RED_MODEL_ERROR": 79,
+        "YELLOW_INFORMATION_GAP": 2
+      },
+      "global": {
+        "PREFERRED": 71,
+        "ACCEPTABLE_SAFE_ALTERNATIVE": 28,
+        "MISMATCH": 81
+      },
+      "information_gaps": 2,
+      "data_defect_calls": 18,
+      "contract_ambiguity_calls": 4,
+      "excluded_defective_or_ambiguous": 22,
+      "genuine_model_errors": 75,
+      "legacy_raw_compatible": 91,
+      "legacy_effective_compatible": 108
+    },
+    {
+      "source_id": "A-qwen3.5-0.8b",
+      "architecture": "A",
+      "model": "Qwen3.5 0.8B",
+      "calls": 180,
+      "local": {
+        "GREEN": 82,
+        "RED_MODEL_ERROR": 87,
+        "LIGHT_GREEN": 9,
+        "YELLOW_INFORMATION_GAP": 2
+      },
+      "global": {
+        "PREFERRED": 64,
+        "MISMATCH": 89,
+        "ACCEPTABLE_SAFE_ALTERNATIVE": 27
+      },
+      "information_gaps": 2,
+      "data_defect_calls": 18,
+      "contract_ambiguity_calls": 4,
+      "excluded_defective_or_ambiguous": 22,
+      "genuine_model_errors": 78,
+      "legacy_raw_compatible": 89,
+      "legacy_effective_compatible": 96
+    },
+    {
+      "source_id": "A-lfm2-700m",
+      "architecture": "A",
+      "model": "LFM2 700M",
+      "calls": 180,
+      "local": {
+        "RED_MODEL_ERROR": 135,
+        "GREEN": 33,
+        "LIGHT_GREEN": 7,
+        "YELLOW_INFORMATION_GAP": 5
+      },
+      "global": {
+        "MISMATCH": 140,
+        "ACCEPTABLE_SAFE_ALTERNATIVE": 23,
+        "PREFERRED": 17
+      },
+      "information_gaps": 5,
+      "data_defect_calls": 18,
+      "contract_ambiguity_calls": 4,
+      "excluded_defective_or_ambiguous": 22,
+      "genuine_model_errors": 122,
+      "legacy_raw_compatible": 43,
+      "legacy_effective_compatible": 83
+    },
+    {
+      "source_id": "A-lfm2-1.2b",
+      "architecture": "A",
+      "model": "LFM2 1.2B",
+      "calls": 180,
+      "local": {
+        "GREEN": 31,
+        "RED_MODEL_ERROR": 138,
+        "LIGHT_GREEN": 8,
+        "YELLOW_INFORMATION_GAP": 3
+      },
+      "global": {
+        "PREFERRED": 14,
+        "MISMATCH": 141,
+        "ACCEPTABLE_SAFE_ALTERNATIVE": 25
+      },
+      "information_gaps": 3,
+      "data_defect_calls": 18,
+      "contract_ambiguity_calls": 4,
+      "excluded_defective_or_ambiguous": 22,
+      "genuine_model_errors": 124,
+      "legacy_raw_compatible": 42,
+      "legacy_effective_compatible": 80
+    },
+    {
+      "source_id": "B-qwen3-1.7b",
+      "architecture": "B",
+      "model": "Qwen3 1.7B + async Vision",
+      "calls": 180,
+      "local": {
+        "GREEN": 68,
+        "RED_MODEL_ERROR": 96,
+        "LIGHT_GREEN": 15,
+        "YELLOW_INFORMATION_GAP": 1
+      },
+      "global": {
+        "PREFERRED": 61,
+        "ACCEPTABLE_SAFE_ALTERNATIVE": 22,
+        "MISMATCH": 97
+      },
+      "information_gaps": 1,
+      "data_defect_calls": 18,
+      "contract_ambiguity_calls": 4,
+      "excluded_defective_or_ambiguous": 22,
+      "genuine_model_errors": 92,
+      "legacy_raw_compatible": 84,
+      "legacy_effective_compatible": 104
+    }
+  ],
+  "defective_or_ambiguous_case_count": 22,
+  "defective_or_ambiguous_cases": [
+    "E01-011",
+    "E01-016",
+    "E01-017",
+    "E01-021",
+    "E01-022",
+    "E01-023",
+    "E02-003",
+    "E02-004",
+    "E02-005",
+    "E02-011",
+    "E02-015",
+    "E02-021",
+    "E02-024",
+    "E03-004",
+    "E03-009",
+    "E03-010",
+    "E03-011",
+    "E04-021",
+    "E04-022",
+    "E04-029",
+    "E05-010",
+    "E05-016"
+  ],
+  "changed_call_count_from_v1": 239,
+  "critical_audit": {
+    "qwen_a_calls": 180,
+    "qwen_b_calls": 180,
+    "other_model_changed_calls": 151,
+    "other_model_unchanged_ranking_samples": 35,
+    "audit_row_count": 546
+  },
+  "invariants": {
+    "no_future_information": true,
+    "exact_inputs_preserved": true,
+    "every_local_red_has_explicit_evidence_reason": true,
+    "every_information_gap_names_absent_fact": true,
+    "every_data_defect_names_contradiction": true,
+    "every_global_mismatch_uses_full_reference": true,
+    "unknown_never_global_mismatch_when_hold_allowed": true,
+    "legacy_bounded_not_global_input": true
+  }
+}

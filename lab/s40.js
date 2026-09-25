@@ -1,0 +1,10 @@
+const esc=v=>String(v??"—").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const ms=v=>v==null?"—":`${Math.round(v).toLocaleString()} ms`;
+const footprint=row=>row.footprint||((row.footprint_mib!=null)?`${row.footprint_mib.toLocaleString()} MiB model` : "—");
+function table(rows){return `<div class="table-wrap"><table><thead><tr><th>Model / runtime</th><th>Cases · valid</th><th>Quality / verdict breakdown</th><th>Secondary signal</th><th>Practical footprint</th><th>Median</th><th>P90</th><th>Promotion</th></tr></thead><tbody>${rows.map(row=>`<tr><td><span class="model">${esc(row.model)}</span></td><td>${esc(row.cases)} · ${esc(row.valid)}</td><td>${esc(row.quality)}</td><td>${esc(row.secondary)}</td><td>${esc(footprint(row))}</td><td>${ms(row.median_ms)}</td><td>${ms(row.p90_ms)}</td><td class="verdict">${esc(row.verdict)}</td></tr>`).join("")}</tbody></table></div>`}
+function render(data){
+ document.querySelector("#category-nav").innerHTML=data.categories.map(x=>`<a href="#${esc(x.id)}">${esc(x.name)}</a>`).join("");
+ document.querySelector("#categories").innerHTML=data.categories.map(x=>`<section class="category" id="${esc(x.id)}"><header><div><h2>${esc(x.name)}</h2><div class="meta"><strong>${esc(x.task)}</strong><br>${esc(x.input)}</div></div><span class="badge">${esc(x.benchmark)}</span></header>${table(x.rows)}</section>`).join("");
+ document.querySelector("#provenance").innerHTML=Object.entries(data.benchmarks).map(([id,b])=>`<article class="benchmark"><h3>${esc(id)} · ${esc(b.cases)} cases</h3><div class="meta">${esc(b.view||b.view_rule||b.selection)}</div>${b.manifest_sha256?`<div class="case-list">manifest ${esc(b.manifest_sha256)}</div>`:""}${b.case_ids?`<details><summary>Frozen case IDs</summary><div class="case-list">${b.case_ids.map(esc).join(" · ")}</div></details>`:""}</article>`).join("");
+}
+fetch("s40-results.json").then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()}).then(render).catch(e=>document.body.innerHTML=`<p class="load-error">Could not load Model Lab data: ${esc(e.message)}</p>`);

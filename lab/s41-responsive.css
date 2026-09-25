@@ -1,0 +1,8 @@
+body { overflow-x: hidden; }
+h1, h2, h3, p { overflow-wrap: anywhere; }
+.wrap { width: 100%; min-width: 0; overflow-x: hidden; }
+.table-wrap { max-width: 100%; }
+.status.green { color: #17653f; background: #d9efe2; }
+.status.light-green { color: #3f6f26; background: #e9f4d9; }
+.status.yellow { color: #8a4d0f; background: #fff0bf; }
+.status.red { color: #9b2c2c; background: #f8e3e3; }

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Edge AI Training cumulative Model Lab data.">
+  <title>Edge AI Training · Model Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Model Lab</h1>
+    <span>S29–S38 · v9</span>
+  </header>
+
+  <main id="main-view">
+    <nav class="section-nav" aria-label="Model Lab sections">
+      <a href="#audio">Audio</a>
+      <a href="#vision">Vision</a>
+      <a href="#vision-decision">Vision+decision</a>
+      <a href="#reasoning">Reasoning</a>
+      <a href="#combined-loop">Combined loop</a>
+    </nav>
+
+    <section id="audio" class="lab-section">
+      <h2>Audio</h2>
+      <div id="table-audio" class="table-mount"></div>
+    </section>
+
+    <section id="vision" class="lab-section">
+      <h2>Vision</h2>
+      <div id="table-vision" class="table-mount"></div>
+    </section>
+
+    <section id="vision-decision" class="lab-section">
+      <h2>Vision+decision</h2>
+      <div id="table-vision-decision" class="table-mount"></div>
+    </section>
+
+    <section id="reasoning" class="lab-section">
+      <h2>Reasoning</h2>
+      <div id="table-reasoning" class="table-mount"></div>
+    </section>
+
+    <section id="combined-loop" class="lab-section">
+      <h2>Combined loop</h2>
+      <div id="table-combined-loop" class="table-mount"></div>
+    </section>
+
+    <footer class="footer-row">
+      <button id="past-run-link" class="text-button" type="button">Past combined run · S30</button>
+      <span id="release-hash"></span>
+    </footer>
+  </main>
+
+  <main id="detail-view" hidden>
+    <button id="back-button" class="back-button" type="button">← All tables</button>
+    <div class="detail-heading">
+      <div><h2 id="detail-model"></h2><p id="detail-config"></p></div>
+      <label>Case<select id="case-selector"></select></label>
+    </div>
+    <div class="detail-grid">
+      <section class="media-panel" id="media-panel"></section>
+      <section class="result-panel">
+        <div id="detail-verdict"></div>
+        <dl class="facts"><dt>Latency</dt><dd id="detail-latency"></dd><dt>Status</dt><dd id="detail-status"></dd></dl>
+        <h3>Exact input</h3><pre id="detail-input"></pre>
+        <h3>Raw response</h3><pre id="detail-output"></pre>
+        <details><summary>Technical config</summary><pre id="detail-technical"></pre></details>
+      </section>
+    </div>
+  </main>
+
+  <main id="past-view" hidden>
+    <button id="past-back-button" class="back-button" type="button">← All tables</button>
+    <h2 id="past-title">S30 combined run</h2>
+    <div id="past-content"></div>
+  </main>
+
+  <main id="combined-view" hidden>
+    <button id="combined-back-button" class="back-button" type="button">← All tables</button>
+    <h2 id="combined-title">Combined run</h2>
+    <div id="combined-scenarios"></div>
+  </main>
+
+  <main id="scenario-view" hidden>
+    <button id="scenario-back-button" class="back-button" type="button">← Run scenarios</button>
+    <div class="detail-heading"><div><h2 id="scenario-title"></h2><p id="scenario-mission"></p></div></div>
+    <div id="scenario-summary"></div>
+    <div id="scenario-timeline" class="timeline"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
