@@ -1,0 +1,2812 @@
+{
+  "schema_version": "edge-ai.s43.semantic-readjudication.v1",
+  "date": "2026-09-25",
+  "reran_models": false,
+  "source_outputs_unchanged": true,
+  "template_id": "case-review-frozen-v1",
+  "rubric": {
+    "dark_green": "preferred/best sensible navigation intent",
+    "light_green": "reasonable/acceptable non-preferred decision with no material navigation error",
+    "yellow": "insufficient evidence or important uncertainty prevents confident good/bad judgment",
+    "red": "sufficient evidence and unreasonable/wrong navigation intent"
+  },
+  "arms": [
+    {
+      "arm": "no-vision",
+      "verdict_counts": {
+        "dark_green": 110,
+        "light_green": 44,
+        "yellow": 26,
+        "red": 0
+      },
+      "episode_counts": {
+        "E01": {
+          "dark_green": 20,
+          "light_green": 5,
+          "yellow": 5,
+          "red": 0
+        },
+        "E02": {
+          "dark_green": 7,
+          "light_green": 15,
+          "yellow": 8,
+          "red": 0
+        },
+        "E03": {
+          "dark_green": 10,
+          "light_green": 13,
+          "yellow": 7,
+          "red": 0
+        },
+        "E04": {
+          "dark_green": 30,
+          "light_green": 0,
+          "yellow": 0,
+          "red": 0
+        },
+        "E05": {
+          "dark_green": 13,
+          "light_green": 11,
+          "yellow": 6,
+          "red": 0
+        },
+        "E06": {
+          "dark_green": 30,
+          "light_green": 0,
+          "yellow": 0,
+          "red": 0
+        }
+      },
+      "cases": [
+        {
+          "case_id": "E01-000",
+          "episode_id": "E01",
+          "source_time_s": 0,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-001",
+          "episode_id": "E01",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-002",
+          "episode_id": "E01",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-003",
+          "episode_id": "E01",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-004",
+          "episode_id": "E01",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-005",
+          "episode_id": "E01",
+          "source_time_s": 5,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-006",
+          "episode_id": "E01",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-007",
+          "episode_id": "E01",
+          "source_time_s": 7,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-008",
+          "episode_id": "E01",
+          "source_time_s": 8,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-009",
+          "episode_id": "E01",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-010",
+          "episode_id": "E01",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-011",
+          "episode_id": "E01",
+          "source_time_s": 11,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-012",
+          "episode_id": "E01",
+          "source_time_s": 12,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-013",
+          "episode_id": "E01",
+          "source_time_s": 13,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-014",
+          "episode_id": "E01",
+          "source_time_s": 14,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-015",
+          "episode_id": "E01",
+          "source_time_s": 15,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-016",
+          "episode_id": "E01",
+          "source_time_s": 16,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-017",
+          "episode_id": "E01",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-018",
+          "episode_id": "E01",
+          "source_time_s": 18,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-019",
+          "episode_id": "E01",
+          "source_time_s": 19,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-020",
+          "episode_id": "E01",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-021",
+          "episode_id": "E01",
+          "source_time_s": 21,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-022",
+          "episode_id": "E01",
+          "source_time_s": 22,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-023",
+          "episode_id": "E01",
+          "source_time_s": 23,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-024",
+          "episode_id": "E01",
+          "source_time_s": 24,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E01-025",
+          "episode_id": "E01",
+          "source_time_s": 25,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E01-026",
+          "episode_id": "E01",
+          "source_time_s": 26,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E01-027",
+          "episode_id": "E01",
+          "source_time_s": 27,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E01-028",
+          "episode_id": "E01",
+          "source_time_s": 28,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E01-029",
+          "episode_id": "E01",
+          "source_time_s": 29,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-000",
+          "episode_id": "E02",
+          "source_time_s": 0,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-001",
+          "episode_id": "E02",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E02-002",
+          "episode_id": "E02",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E02-003",
+          "episode_id": "E02",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E02-004",
+          "episode_id": "E02",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E02-005",
+          "episode_id": "E02",
+          "source_time_s": 5,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-006",
+          "episode_id": "E02",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E02-007",
+          "episode_id": "E02",
+          "source_time_s": 7,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-008",
+          "episode_id": "E02",
+          "source_time_s": 8,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-009",
+          "episode_id": "E02",
+          "source_time_s": 9,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-010",
+          "episode_id": "E02",
+          "source_time_s": 10,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-011",
+          "episode_id": "E02",
+          "source_time_s": 11,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-012",
+          "episode_id": "E02",
+          "source_time_s": 12,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-013",
+          "episode_id": "E02",
+          "source_time_s": 13,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-014",
+          "episode_id": "E02",
+          "source_time_s": 14,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-015",
+          "episode_id": "E02",
+          "source_time_s": 15,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-016",
+          "episode_id": "E02",
+          "source_time_s": 16,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-017",
+          "episode_id": "E02",
+          "source_time_s": 17,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-018",
+          "episode_id": "E02",
+          "source_time_s": 18,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-019",
+          "episode_id": "E02",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-020",
+          "episode_id": "E02",
+          "source_time_s": 20,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-021",
+          "episode_id": "E02",
+          "source_time_s": 21,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-022",
+          "episode_id": "E02",
+          "source_time_s": 22,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-023",
+          "episode_id": "E02",
+          "source_time_s": 23,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-024",
+          "episode_id": "E02",
+          "source_time_s": 24,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-025",
+          "episode_id": "E02",
+          "source_time_s": 25,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-026",
+          "episode_id": "E02",
+          "source_time_s": 26,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-027",
+          "episode_id": "E02",
+          "source_time_s": 27,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E02-028",
+          "episode_id": "E02",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E02-029",
+          "episode_id": "E02",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-000",
+          "episode_id": "E03",
+          "source_time_s": 0,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-001",
+          "episode_id": "E03",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-002",
+          "episode_id": "E03",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-003",
+          "episode_id": "E03",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-004",
+          "episode_id": "E03",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-005",
+          "episode_id": "E03",
+          "source_time_s": 5,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-006",
+          "episode_id": "E03",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-007",
+          "episode_id": "E03",
+          "source_time_s": 7,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-008",
+          "episode_id": "E03",
+          "source_time_s": 8,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-009",
+          "episode_id": "E03",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-010",
+          "episode_id": "E03",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E03-011",
+          "episode_id": "E03",
+          "source_time_s": 11,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-012",
+          "episode_id": "E03",
+          "source_time_s": 12,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-013",
+          "episode_id": "E03",
+          "source_time_s": 13,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-014",
+          "episode_id": "E03",
+          "source_time_s": 14,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-015",
+          "episode_id": "E03",
+          "source_time_s": 15,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-016",
+          "episode_id": "E03",
+          "source_time_s": 16,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-017",
+          "episode_id": "E03",
+          "source_time_s": 17,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-018",
+          "episode_id": "E03",
+          "source_time_s": 18,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-019",
+          "episode_id": "E03",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-020",
+          "episode_id": "E03",
+          "source_time_s": 20,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-021",
+          "episode_id": "E03",
+          "source_time_s": 21,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-022",
+          "episode_id": "E03",
+          "source_time_s": 22,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-023",
+          "episode_id": "E03",
+          "source_time_s": 23,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-024",
+          "episode_id": "E03",
+          "source_time_s": 24,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-025",
+          "episode_id": "E03",
+          "source_time_s": 25,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E03-026",
+          "episode_id": "E03",
+          "source_time_s": 26,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-027",
+          "episode_id": "E03",
+          "source_time_s": 27,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-028",
+          "episode_id": "E03",
+          "source_time_s": 28,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E03-029",
+          "episode_id": "E03",
+          "source_time_s": 29,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E04-000",
+          "episode_id": "E04",
+          "source_time_s": 0,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-001",
+          "episode_id": "E04",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-002",
+          "episode_id": "E04",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-003",
+          "episode_id": "E04",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-004",
+          "episode_id": "E04",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-005",
+          "episode_id": "E04",
+          "source_time_s": 5,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-006",
+          "episode_id": "E04",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-007",
+          "episode_id": "E04",
+          "source_time_s": 7,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-008",
+          "episode_id": "E04",
+          "source_time_s": 8,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-009",
+          "episode_id": "E04",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-010",
+          "episode_id": "E04",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-011",
+          "episode_id": "E04",
+          "source_time_s": 11,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-012",
+          "episode_id": "E04",
+          "source_time_s": 12,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-013",
+          "episode_id": "E04",
+          "source_time_s": 13,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-014",
+          "episode_id": "E04",
+          "source_time_s": 14,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-015",
+          "episode_id": "E04",
+          "source_time_s": 15,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-016",
+          "episode_id": "E04",
+          "source_time_s": 16,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-017",
+          "episode_id": "E04",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-018",
+          "episode_id": "E04",
+          "source_time_s": 18,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-019",
+          "episode_id": "E04",
+          "source_time_s": 19,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-020",
+          "episode_id": "E04",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-021",
+          "episode_id": "E04",
+          "source_time_s": 21,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-022",
+          "episode_id": "E04",
+          "source_time_s": 22,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-023",
+          "episode_id": "E04",
+          "source_time_s": 23,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-024",
+          "episode_id": "E04",
+          "source_time_s": 24,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-025",
+          "episode_id": "E04",
+          "source_time_s": 25,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-026",
+          "episode_id": "E04",
+          "source_time_s": 26,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-027",
+          "episode_id": "E04",
+          "source_time_s": 27,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-028",
+          "episode_id": "E04",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E04-029",
+          "episode_id": "E04",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "Bedroom/door semantics are unavailable in this arm, so withholding direction and seeking room cues is preferred."
+        },
+        {
+          "case_id": "E05-000",
+          "episode_id": "E05",
+          "source_time_s": 0,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-001",
+          "episode_id": "E05",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-002",
+          "episode_id": "E05",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-003",
+          "episode_id": "E05",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-004",
+          "episode_id": "E05",
+          "source_time_s": 4,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-005",
+          "episode_id": "E05",
+          "source_time_s": 5,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-006",
+          "episode_id": "E05",
+          "source_time_s": 6,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-007",
+          "episode_id": "E05",
+          "source_time_s": 7,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E05-008",
+          "episode_id": "E05",
+          "source_time_s": 8,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E05-009",
+          "episode_id": "E05",
+          "source_time_s": 9,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E05-010",
+          "episode_id": "E05",
+          "source_time_s": 10,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E05-011",
+          "episode_id": "E05",
+          "source_time_s": 11,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E05-012",
+          "episode_id": "E05",
+          "source_time_s": 12,
+          "verdict": "yellow",
+          "rationale": "The move may be workable, but route/occupancy evidence is too ambiguous for a confident good-or-bad judgment."
+        },
+        {
+          "case_id": "E05-013",
+          "episode_id": "E05",
+          "source_time_s": 13,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-014",
+          "episode_id": "E05",
+          "source_time_s": 14,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-015",
+          "episode_id": "E05",
+          "source_time_s": 15,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-016",
+          "episode_id": "E05",
+          "source_time_s": 16,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-017",
+          "episode_id": "E05",
+          "source_time_s": 17,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-018",
+          "episode_id": "E05",
+          "source_time_s": 18,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-019",
+          "episode_id": "E05",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "Reasonable local progress, but without visual mission cues it is acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E05-020",
+          "episode_id": "E05",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-021",
+          "episode_id": "E05",
+          "source_time_s": 21,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-022",
+          "episode_id": "E05",
+          "source_time_s": 22,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-023",
+          "episode_id": "E05",
+          "source_time_s": 23,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-024",
+          "episode_id": "E05",
+          "source_time_s": 24,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-025",
+          "episode_id": "E05",
+          "source_time_s": 25,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-026",
+          "episode_id": "E05",
+          "source_time_s": 26,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-027",
+          "episode_id": "E05",
+          "source_time_s": 27,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-028",
+          "episode_id": "E05",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E05-029",
+          "episode_id": "E05",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "The mission target/route is not semantically established and the model avoids inventing a stronger direction."
+        },
+        {
+          "case_id": "E06-000",
+          "episode_id": "E06",
+          "source_time_s": 0,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-001",
+          "episode_id": "E06",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-002",
+          "episode_id": "E06",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-003",
+          "episode_id": "E06",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-004",
+          "episode_id": "E06",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-005",
+          "episode_id": "E06",
+          "source_time_s": 5,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-006",
+          "episode_id": "E06",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-007",
+          "episode_id": "E06",
+          "source_time_s": 7,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-008",
+          "episode_id": "E06",
+          "source_time_s": 8,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-009",
+          "episode_id": "E06",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-010",
+          "episode_id": "E06",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-011",
+          "episode_id": "E06",
+          "source_time_s": 11,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-012",
+          "episode_id": "E06",
+          "source_time_s": 12,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-013",
+          "episode_id": "E06",
+          "source_time_s": 13,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-014",
+          "episode_id": "E06",
+          "source_time_s": 14,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-015",
+          "episode_id": "E06",
+          "source_time_s": 15,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-016",
+          "episode_id": "E06",
+          "source_time_s": 16,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-017",
+          "episode_id": "E06",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-018",
+          "episode_id": "E06",
+          "source_time_s": 18,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-019",
+          "episode_id": "E06",
+          "source_time_s": 19,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-020",
+          "episode_id": "E06",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-021",
+          "episode_id": "E06",
+          "source_time_s": 21,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-022",
+          "episode_id": "E06",
+          "source_time_s": 22,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-023",
+          "episode_id": "E06",
+          "source_time_s": 23,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-024",
+          "episode_id": "E06",
+          "source_time_s": 24,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-025",
+          "episode_id": "E06",
+          "source_time_s": 25,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-026",
+          "episode_id": "E06",
+          "source_time_s": 26,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-027",
+          "episode_id": "E06",
+          "source_time_s": 27,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-028",
+          "episode_id": "E06",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-029",
+          "episode_id": "E06",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        }
+      ],
+      "audit": [
+        {
+          "episode_id": "E01",
+          "verdict": "dark_green",
+          "sample_case_id": "E01-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E01",
+          "verdict": "light_green",
+          "sample_case_id": "E01-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E01",
+          "verdict": "yellow",
+          "sample_case_id": "E01-024",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E02",
+          "verdict": "dark_green",
+          "sample_case_id": "E02-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E02",
+          "verdict": "light_green",
+          "sample_case_id": "E02-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E02",
+          "verdict": "yellow",
+          "sample_case_id": "E02-005",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E03",
+          "verdict": "dark_green",
+          "sample_case_id": "E03-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E03",
+          "verdict": "light_green",
+          "sample_case_id": "E03-011",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E03",
+          "verdict": "yellow",
+          "sample_case_id": "E03-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E04",
+          "verdict": "dark_green",
+          "sample_case_id": "E04-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E05",
+          "verdict": "dark_green",
+          "sample_case_id": "E05-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E05",
+          "verdict": "light_green",
+          "sample_case_id": "E05-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E05",
+          "verdict": "yellow",
+          "sample_case_id": "E05-007",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E06",
+          "verdict": "dark_green",
+          "sample_case_id": "E06-000",
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "arm": "vision",
+      "verdict_counts": {
+        "dark_green": 88,
+        "light_green": 66,
+        "yellow": 26,
+        "red": 0
+      },
+      "episode_counts": {
+        "E01": {
+          "dark_green": 14,
+          "light_green": 10,
+          "yellow": 6,
+          "red": 0
+        },
+        "E02": {
+          "dark_green": 20,
+          "light_green": 6,
+          "yellow": 4,
+          "red": 0
+        },
+        "E03": {
+          "dark_green": 3,
+          "light_green": 17,
+          "yellow": 10,
+          "red": 0
+        },
+        "E04": {
+          "dark_green": 6,
+          "light_green": 24,
+          "yellow": 0,
+          "red": 0
+        },
+        "E05": {
+          "dark_green": 15,
+          "light_green": 9,
+          "yellow": 6,
+          "red": 0
+        },
+        "E06": {
+          "dark_green": 30,
+          "light_green": 0,
+          "yellow": 0,
+          "red": 0
+        }
+      },
+      "cases": [
+        {
+          "case_id": "E01-000",
+          "episode_id": "E01",
+          "source_time_s": 0,
+          "verdict": "light_green",
+          "rationale": "Exploratory forward progress is reasonable, but the woman is not yet localized strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E01-001",
+          "episode_id": "E01",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-002",
+          "episode_id": "E01",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-003",
+          "episode_id": "E01",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-004",
+          "episode_id": "E01",
+          "source_time_s": 4,
+          "verdict": "yellow",
+          "rationale": "The model advances while target/path evidence is still ambiguous, so the decision cannot be confidently graded good or bad."
+        },
+        {
+          "case_id": "E01-005",
+          "episode_id": "E01",
+          "source_time_s": 5,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-006",
+          "episode_id": "E01",
+          "source_time_s": 6,
+          "verdict": "yellow",
+          "rationale": "The model advances while target/path evidence is still ambiguous, so the decision cannot be confidently graded good or bad."
+        },
+        {
+          "case_id": "E01-007",
+          "episode_id": "E01",
+          "source_time_s": 7,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-008",
+          "episode_id": "E01",
+          "source_time_s": 8,
+          "verdict": "yellow",
+          "rationale": "The model advances while target/path evidence is still ambiguous, so the decision cannot be confidently graded good or bad."
+        },
+        {
+          "case_id": "E01-009",
+          "episode_id": "E01",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-010",
+          "episode_id": "E01",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-011",
+          "episode_id": "E01",
+          "source_time_s": 11,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-012",
+          "episode_id": "E01",
+          "source_time_s": 12,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-013",
+          "episode_id": "E01",
+          "source_time_s": 13,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-014",
+          "episode_id": "E01",
+          "source_time_s": 14,
+          "verdict": "yellow",
+          "rationale": "The model advances while target/path evidence is still ambiguous, so the decision cannot be confidently graded good or bad."
+        },
+        {
+          "case_id": "E01-015",
+          "episode_id": "E01",
+          "source_time_s": 15,
+          "verdict": "dark_green",
+          "rationale": "The woman is not yet reliably localized and the model appropriately avoids unsupported commitment."
+        },
+        {
+          "case_id": "E01-016",
+          "episode_id": "E01",
+          "source_time_s": 16,
+          "verdict": "yellow",
+          "rationale": "The model advances while target/path evidence is still ambiguous, so the decision cannot be confidently graded good or bad."
+        },
+        {
+          "case_id": "E01-017",
+          "episode_id": "E01",
+          "source_time_s": 17,
+          "verdict": "yellow",
+          "rationale": "The model advances while target/path evidence is still ambiguous, so the decision cannot be confidently graded good or bad."
+        },
+        {
+          "case_id": "E01-018",
+          "episode_id": "E01",
+          "source_time_s": 18,
+          "verdict": "light_green",
+          "rationale": "Exploratory forward progress is reasonable, but the woman is not yet localized strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E01-019",
+          "episode_id": "E01",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "Exploratory forward progress is reasonable, but the woman is not yet localized strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E01-020",
+          "episode_id": "E01",
+          "source_time_s": 20,
+          "verdict": "light_green",
+          "rationale": "Exploratory forward progress is reasonable, but the woman is not yet localized strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E01-021",
+          "episode_id": "E01",
+          "source_time_s": 21,
+          "verdict": "dark_green",
+          "rationale": "The woman is visible and forward is sufficiently clear, so ahead is preferred."
+        },
+        {
+          "case_id": "E01-022",
+          "episode_id": "E01",
+          "source_time_s": 22,
+          "verdict": "dark_green",
+          "rationale": "The woman is visible and forward is sufficiently clear, so ahead is preferred."
+        },
+        {
+          "case_id": "E01-023",
+          "episode_id": "E01",
+          "source_time_s": 23,
+          "verdict": "dark_green",
+          "rationale": "The woman is visible and forward is sufficiently clear, so ahead is preferred."
+        },
+        {
+          "case_id": "E01-024",
+          "episode_id": "E01",
+          "source_time_s": 24,
+          "verdict": "light_green",
+          "rationale": "Ahead remains mission-aligned with the visible woman, but clutter/comfortable-distance uncertainty makes it acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-025",
+          "episode_id": "E01",
+          "source_time_s": 25,
+          "verdict": "light_green",
+          "rationale": "Ahead remains mission-aligned with the visible woman, but clutter/comfortable-distance uncertainty makes it acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-026",
+          "episode_id": "E01",
+          "source_time_s": 26,
+          "verdict": "light_green",
+          "rationale": "Ahead remains mission-aligned with the visible woman, but clutter/comfortable-distance uncertainty makes it acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-027",
+          "episode_id": "E01",
+          "source_time_s": 27,
+          "verdict": "light_green",
+          "rationale": "Ahead remains mission-aligned with the visible woman, but clutter/comfortable-distance uncertainty makes it acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-028",
+          "episode_id": "E01",
+          "source_time_s": 28,
+          "verdict": "light_green",
+          "rationale": "Ahead remains mission-aligned with the visible woman, but clutter/comfortable-distance uncertainty makes it acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E01-029",
+          "episode_id": "E01",
+          "source_time_s": 29,
+          "verdict": "light_green",
+          "rationale": "Ahead remains mission-aligned with the visible woman, but clutter/comfortable-distance uncertainty makes it acceptable rather than clearly preferred."
+        },
+        {
+          "case_id": "E02-000",
+          "episode_id": "E02",
+          "source_time_s": 0,
+          "verdict": "light_green",
+          "rationale": "Forward exploration/approach is reasonable, but destination identity or occupancy prevents calling it uniquely preferred."
+        },
+        {
+          "case_id": "E02-001",
+          "episode_id": "E02",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E02-002",
+          "episode_id": "E02",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E02-003",
+          "episode_id": "E02",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E02-004",
+          "episode_id": "E02",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E02-005",
+          "episode_id": "E02",
+          "source_time_s": 5,
+          "verdict": "light_green",
+          "rationale": "Forward exploration/approach is reasonable, but destination identity or occupancy prevents calling it uniquely preferred."
+        },
+        {
+          "case_id": "E02-006",
+          "episode_id": "E02",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E02-007",
+          "episode_id": "E02",
+          "source_time_s": 7,
+          "verdict": "light_green",
+          "rationale": "Forward exploration/approach is reasonable, but destination identity or occupancy prevents calling it uniquely preferred."
+        },
+        {
+          "case_id": "E02-008",
+          "episode_id": "E02",
+          "source_time_s": 8,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-009",
+          "episode_id": "E02",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-010",
+          "episode_id": "E02",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-011",
+          "episode_id": "E02",
+          "source_time_s": 11,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-012",
+          "episode_id": "E02",
+          "source_time_s": 12,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-013",
+          "episode_id": "E02",
+          "source_time_s": 13,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-014",
+          "episode_id": "E02",
+          "source_time_s": 14,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-015",
+          "episode_id": "E02",
+          "source_time_s": 15,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-016",
+          "episode_id": "E02",
+          "source_time_s": 16,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-017",
+          "episode_id": "E02",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-018",
+          "episode_id": "E02",
+          "source_time_s": 18,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-019",
+          "episode_id": "E02",
+          "source_time_s": 19,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-020",
+          "episode_id": "E02",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "A doorway is visible in the mission direction and forward remains the strongest local route, making ahead preferred."
+        },
+        {
+          "case_id": "E02-021",
+          "episode_id": "E02",
+          "source_time_s": 21,
+          "verdict": "light_green",
+          "rationale": "Forward exploration/approach is reasonable, but destination identity or occupancy prevents calling it uniquely preferred."
+        },
+        {
+          "case_id": "E02-022",
+          "episode_id": "E02",
+          "source_time_s": 22,
+          "verdict": "light_green",
+          "rationale": "Forward exploration/approach is reasonable, but destination identity or occupancy prevents calling it uniquely preferred."
+        },
+        {
+          "case_id": "E02-023",
+          "episode_id": "E02",
+          "source_time_s": 23,
+          "verdict": "light_green",
+          "rationale": "Forward exploration/approach is reasonable, but destination identity or occupancy prevents calling it uniquely preferred."
+        },
+        {
+          "case_id": "E02-024",
+          "episode_id": "E02",
+          "source_time_s": 24,
+          "verdict": "yellow",
+          "rationale": "The doorway remains plausible but local occupancy has degraded enough that continuing ahead is genuinely uncertain."
+        },
+        {
+          "case_id": "E02-025",
+          "episode_id": "E02",
+          "source_time_s": 25,
+          "verdict": "yellow",
+          "rationale": "The doorway remains plausible but local occupancy has degraded enough that continuing ahead is genuinely uncertain."
+        },
+        {
+          "case_id": "E02-026",
+          "episode_id": "E02",
+          "source_time_s": 26,
+          "verdict": "yellow",
+          "rationale": "The doorway remains plausible but local occupancy has degraded enough that continuing ahead is genuinely uncertain."
+        },
+        {
+          "case_id": "E02-027",
+          "episode_id": "E02",
+          "source_time_s": 27,
+          "verdict": "yellow",
+          "rationale": "The doorway remains plausible but local occupancy has degraded enough that continuing ahead is genuinely uncertain."
+        },
+        {
+          "case_id": "E02-028",
+          "episode_id": "E02",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E02-029",
+          "episode_id": "E02",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "Destination or path evidence does not support a stronger commitment, so uncertainty is preferred."
+        },
+        {
+          "case_id": "E03-000",
+          "episode_id": "E03",
+          "source_time_s": 0,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-001",
+          "episode_id": "E03",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "No reliable sofa/route cue is available and the model appropriately withholds a stronger direction."
+        },
+        {
+          "case_id": "E03-002",
+          "episode_id": "E03",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "No reliable sofa/route cue is available and the model appropriately withholds a stronger direction."
+        },
+        {
+          "case_id": "E03-003",
+          "episode_id": "E03",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "No reliable sofa/route cue is available and the model appropriately withholds a stronger direction."
+        },
+        {
+          "case_id": "E03-004",
+          "episode_id": "E03",
+          "source_time_s": 4,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-005",
+          "episode_id": "E03",
+          "source_time_s": 5,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-006",
+          "episode_id": "E03",
+          "source_time_s": 6,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-007",
+          "episode_id": "E03",
+          "source_time_s": 7,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-008",
+          "episode_id": "E03",
+          "source_time_s": 8,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-009",
+          "episode_id": "E03",
+          "source_time_s": 9,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-010",
+          "episode_id": "E03",
+          "source_time_s": 10,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-011",
+          "episode_id": "E03",
+          "source_time_s": 11,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-012",
+          "episode_id": "E03",
+          "source_time_s": 12,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-013",
+          "episode_id": "E03",
+          "source_time_s": 13,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-014",
+          "episode_id": "E03",
+          "source_time_s": 14,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-015",
+          "episode_id": "E03",
+          "source_time_s": 15,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-016",
+          "episode_id": "E03",
+          "source_time_s": 16,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-017",
+          "episode_id": "E03",
+          "source_time_s": 17,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-018",
+          "episode_id": "E03",
+          "source_time_s": 18,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-019",
+          "episode_id": "E03",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-020",
+          "episode_id": "E03",
+          "source_time_s": 20,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-021",
+          "episode_id": "E03",
+          "source_time_s": 21,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-022",
+          "episode_id": "E03",
+          "source_time_s": 22,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-023",
+          "episode_id": "E03",
+          "source_time_s": 23,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-024",
+          "episode_id": "E03",
+          "source_time_s": 24,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-025",
+          "episode_id": "E03",
+          "source_time_s": 25,
+          "verdict": "yellow",
+          "rationale": "The movement may be viable, but occupied geometry and weak route evidence prevent a confident quality judgment."
+        },
+        {
+          "case_id": "E03-026",
+          "episode_id": "E03",
+          "source_time_s": 26,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-027",
+          "episode_id": "E03",
+          "source_time_s": 27,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-028",
+          "episode_id": "E03",
+          "source_time_s": 28,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E03-029",
+          "episode_id": "E03",
+          "source_time_s": 29,
+          "verdict": "light_green",
+          "rationale": "Ahead is reasonable exploratory progress, but Vision still does not establish the sofa route strongly enough to make it preferred."
+        },
+        {
+          "case_id": "E04-000",
+          "episode_id": "E04",
+          "source_time_s": 0,
+          "verdict": "dark_green",
+          "rationale": "No reliable bedroom/door cue is available (or a wait is active), so uncertainty is preferred."
+        },
+        {
+          "case_id": "E04-001",
+          "episode_id": "E04",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "No reliable bedroom/door cue is available (or a wait is active), so uncertainty is preferred."
+        },
+        {
+          "case_id": "E04-002",
+          "episode_id": "E04",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "No reliable bedroom/door cue is available (or a wait is active), so uncertainty is preferred."
+        },
+        {
+          "case_id": "E04-003",
+          "episode_id": "E04",
+          "source_time_s": 3,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-004",
+          "episode_id": "E04",
+          "source_time_s": 4,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-005",
+          "episode_id": "E04",
+          "source_time_s": 5,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-006",
+          "episode_id": "E04",
+          "source_time_s": 6,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-007",
+          "episode_id": "E04",
+          "source_time_s": 7,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-008",
+          "episode_id": "E04",
+          "source_time_s": 8,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-009",
+          "episode_id": "E04",
+          "source_time_s": 9,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-010",
+          "episode_id": "E04",
+          "source_time_s": 10,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-011",
+          "episode_id": "E04",
+          "source_time_s": 11,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-012",
+          "episode_id": "E04",
+          "source_time_s": 12,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-013",
+          "episode_id": "E04",
+          "source_time_s": 13,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-014",
+          "episode_id": "E04",
+          "source_time_s": 14,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-015",
+          "episode_id": "E04",
+          "source_time_s": 15,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-016",
+          "episode_id": "E04",
+          "source_time_s": 16,
+          "verdict": "dark_green",
+          "rationale": "No reliable bedroom/door cue is available (or a wait is active), so uncertainty is preferred."
+        },
+        {
+          "case_id": "E04-017",
+          "episode_id": "E04",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "No reliable bedroom/door cue is available (or a wait is active), so uncertainty is preferred."
+        },
+        {
+          "case_id": "E04-018",
+          "episode_id": "E04",
+          "source_time_s": 18,
+          "verdict": "dark_green",
+          "rationale": "No reliable bedroom/door cue is available (or a wait is active), so uncertainty is preferred."
+        },
+        {
+          "case_id": "E04-019",
+          "episode_id": "E04",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-020",
+          "episode_id": "E04",
+          "source_time_s": 20,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-021",
+          "episode_id": "E04",
+          "source_time_s": 21,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-022",
+          "episode_id": "E04",
+          "source_time_s": 22,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-023",
+          "episode_id": "E04",
+          "source_time_s": 23,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-024",
+          "episode_id": "E04",
+          "source_time_s": 24,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-025",
+          "episode_id": "E04",
+          "source_time_s": 25,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-026",
+          "episode_id": "E04",
+          "source_time_s": 26,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-027",
+          "episode_id": "E04",
+          "source_time_s": 27,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-028",
+          "episode_id": "E04",
+          "source_time_s": 28,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E04-029",
+          "episode_id": "E04",
+          "source_time_s": 29,
+          "verdict": "light_green",
+          "rationale": "The turn follows a visible doorway/door-frame cue and is reasonable, but the image does not prove that opening is the bedroom."
+        },
+        {
+          "case_id": "E05-000",
+          "episode_id": "E05",
+          "source_time_s": 0,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-001",
+          "episode_id": "E05",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-002",
+          "episode_id": "E05",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-003",
+          "episode_id": "E05",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-004",
+          "episode_id": "E05",
+          "source_time_s": 4,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-005",
+          "episode_id": "E05",
+          "source_time_s": 5,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-006",
+          "episode_id": "E05",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "An explicit STOP is active, so no directional movement is preferred."
+        },
+        {
+          "case_id": "E05-007",
+          "episode_id": "E05",
+          "source_time_s": 7,
+          "verdict": "yellow",
+          "rationale": "A lateral doorway is visible while forward geometry is constrained; evidence is insufficient to call continuing ahead clearly acceptable or wrong."
+        },
+        {
+          "case_id": "E05-008",
+          "episode_id": "E05",
+          "source_time_s": 8,
+          "verdict": "yellow",
+          "rationale": "A lateral doorway is visible while forward geometry is constrained; evidence is insufficient to call continuing ahead clearly acceptable or wrong."
+        },
+        {
+          "case_id": "E05-009",
+          "episode_id": "E05",
+          "source_time_s": 9,
+          "verdict": "yellow",
+          "rationale": "A lateral doorway is visible while forward geometry is constrained; evidence is insufficient to call continuing ahead clearly acceptable or wrong."
+        },
+        {
+          "case_id": "E05-010",
+          "episode_id": "E05",
+          "source_time_s": 10,
+          "verdict": "yellow",
+          "rationale": "A lateral doorway is visible while forward geometry is constrained; evidence is insufficient to call continuing ahead clearly acceptable or wrong."
+        },
+        {
+          "case_id": "E05-011",
+          "episode_id": "E05",
+          "source_time_s": 11,
+          "verdict": "yellow",
+          "rationale": "A lateral doorway is visible while forward geometry is constrained; evidence is insufficient to call continuing ahead clearly acceptable or wrong."
+        },
+        {
+          "case_id": "E05-012",
+          "episode_id": "E05",
+          "source_time_s": 12,
+          "verdict": "yellow",
+          "rationale": "A lateral doorway is visible while forward geometry is constrained; evidence is insufficient to call continuing ahead clearly acceptable or wrong."
+        },
+        {
+          "case_id": "E05-013",
+          "episode_id": "E05",
+          "source_time_s": 13,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-014",
+          "episode_id": "E05",
+          "source_time_s": 14,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-015",
+          "episode_id": "E05",
+          "source_time_s": 15,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-016",
+          "episode_id": "E05",
+          "source_time_s": 16,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-017",
+          "episode_id": "E05",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-018",
+          "episode_id": "E05",
+          "source_time_s": 18,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-019",
+          "episode_id": "E05",
+          "source_time_s": 19,
+          "verdict": "light_green",
+          "rationale": "Reasonable approach progress, but doorway evidence means another direction may be preferable."
+        },
+        {
+          "case_id": "E05-020",
+          "episode_id": "E05",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-021",
+          "episode_id": "E05",
+          "source_time_s": 21,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-022",
+          "episode_id": "E05",
+          "source_time_s": 22,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-023",
+          "episode_id": "E05",
+          "source_time_s": 23,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-024",
+          "episode_id": "E05",
+          "source_time_s": 24,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-025",
+          "episode_id": "E05",
+          "source_time_s": 25,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-026",
+          "episode_id": "E05",
+          "source_time_s": 26,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-027",
+          "episode_id": "E05",
+          "source_time_s": 27,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-028",
+          "episode_id": "E05",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E05-029",
+          "episode_id": "E05",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "The output either follows the visible doorway cue or appropriately withholds direction when no reliable cue exists."
+        },
+        {
+          "case_id": "E06-000",
+          "episode_id": "E06",
+          "source_time_s": 0,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-001",
+          "episode_id": "E06",
+          "source_time_s": 1,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-002",
+          "episode_id": "E06",
+          "source_time_s": 2,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-003",
+          "episode_id": "E06",
+          "source_time_s": 3,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-004",
+          "episode_id": "E06",
+          "source_time_s": 4,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-005",
+          "episode_id": "E06",
+          "source_time_s": 5,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-006",
+          "episode_id": "E06",
+          "source_time_s": 6,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-007",
+          "episode_id": "E06",
+          "source_time_s": 7,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-008",
+          "episode_id": "E06",
+          "source_time_s": 8,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-009",
+          "episode_id": "E06",
+          "source_time_s": 9,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-010",
+          "episode_id": "E06",
+          "source_time_s": 10,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-011",
+          "episode_id": "E06",
+          "source_time_s": 11,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-012",
+          "episode_id": "E06",
+          "source_time_s": 12,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-013",
+          "episode_id": "E06",
+          "source_time_s": 13,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-014",
+          "episode_id": "E06",
+          "source_time_s": 14,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-015",
+          "episode_id": "E06",
+          "source_time_s": 15,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-016",
+          "episode_id": "E06",
+          "source_time_s": 16,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-017",
+          "episode_id": "E06",
+          "source_time_s": 17,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-018",
+          "episode_id": "E06",
+          "source_time_s": 18,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-019",
+          "episode_id": "E06",
+          "source_time_s": 19,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-020",
+          "episode_id": "E06",
+          "source_time_s": 20,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-021",
+          "episode_id": "E06",
+          "source_time_s": 21,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-022",
+          "episode_id": "E06",
+          "source_time_s": 22,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-023",
+          "episode_id": "E06",
+          "source_time_s": 23,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-024",
+          "episode_id": "E06",
+          "source_time_s": 24,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-025",
+          "episode_id": "E06",
+          "source_time_s": 25,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-026",
+          "episode_id": "E06",
+          "source_time_s": 26,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-027",
+          "episode_id": "E06",
+          "source_time_s": 27,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-028",
+          "episode_id": "E06",
+          "source_time_s": 28,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        },
+        {
+          "case_id": "E06-029",
+          "episode_id": "E06",
+          "source_time_s": 29,
+          "verdict": "dark_green",
+          "rationale": "Observation mission: no directional commitment is preferred; stop cues remain respected."
+        }
+      ],
+      "audit": [
+        {
+          "episode_id": "E01",
+          "verdict": "dark_green",
+          "sample_case_id": "E01-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E01",
+          "verdict": "light_green",
+          "sample_case_id": "E01-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E01",
+          "verdict": "yellow",
+          "sample_case_id": "E01-004",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E02",
+          "verdict": "dark_green",
+          "sample_case_id": "E02-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E02",
+          "verdict": "light_green",
+          "sample_case_id": "E02-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E02",
+          "verdict": "yellow",
+          "sample_case_id": "E02-024",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E03",
+          "verdict": "dark_green",
+          "sample_case_id": "E03-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E03",
+          "verdict": "light_green",
+          "sample_case_id": "E03-007",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E03",
+          "verdict": "yellow",
+          "sample_case_id": "E03-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E04",
+          "verdict": "dark_green",
+          "sample_case_id": "E04-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E04",
+          "verdict": "light_green",
+          "sample_case_id": "E04-003",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E05",
+          "verdict": "dark_green",
+          "sample_case_id": "E05-001",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E05",
+          "verdict": "light_green",
+          "sample_case_id": "E05-000",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E05",
+          "verdict": "yellow",
+          "sample_case_id": "E05-007",
+          "result": "PASS"
+        },
+        {
+          "episode_id": "E06",
+          "verdict": "dark_green",
+          "sample_case_id": "E06-000",
+          "result": "PASS"
+        }
+      ]
+    }
+  ],
+  "audit_method": "360/360 semantic review with a second-pass sample for every verdict class present in every episode; no target distribution imposed."
+}
